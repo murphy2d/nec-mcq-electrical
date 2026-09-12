@@ -1,0 +1,1672 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "Which of the following best describes Ohm's Law?",
+      "options": [
+        "A) The relationship between voltage and power",
+        "B) The relationship between current and resistance",
+        "C) The relationship between voltage and current",
+        "D) The relationship between resistance and power"
+      ],
+      "answer": "C",
+      "explanation": "Ohm's Law states that the current passing through a conductor between two points is directly proportional to the voltage across the two points (at constant physical conditions), establishing the fundamental relationship between voltage and current."
+    },
+    {
+      "id": 2,
+      "question": "Which of the following is a correct expression of Ohm's Law?",
+      "options": [
+        "A) I = VR",
+        "B) R = VI",
+        "C) V = IR",
+        "D) R = IV"
+      ],
+      "answer": "C",
+      "explanation": "The standard mathematical expression for Ohm's Law is V = IR, where V represents voltage in Volts, I represents current in Amperes, and R represents resistance in Ohms."
+    },
+    {
+      "id": 3,
+      "question": "If the voltage across a circuit remains constant and the resistance decreases, what happens to the current?",
+      "options": [
+        "A) It increases",
+        "B) It decreases",
+        "C) It stays the same",
+        "D) It is impossible to determine without more information"
+      ],
+      "answer": "A",
+      "explanation": "According to Ohm's Law (I = V / R), current is inversely proportional to resistance. If voltage V remains constant and resistance R decreases, current I increases."
+    },
+    {
+      "id": 4,
+      "question": "Which of the following materials has the highest electrical resistance?",
+      "options": [
+        "A) Copper",
+        "B) Silver",
+        "C) Aluminum",
+        "D) Nichrome"
+      ],
+      "answer": "D",
+      "explanation": "Nichrome is an alloy with high electrical resistivity compared to pure conductive metals like silver, copper, and aluminum, making it have the highest resistance among the options."
+    },
+    {
+      "id": 5,
+      "question": "Which of the following is an example of a non-ohmic conductor?",
+      "options": [
+        "A) Copper wire",
+        "B) Carbon resistor",
+        "C) Light bulb filament",
+        "D) Silver wire"
+      ],
+      "answer": "C",
+      "explanation": "A light bulb filament undergoes significant temperature changes as current flows through it, causing its resistance to change non-linearly with applied voltage; hence it is a non-ohmic conductor."
+    },
+    {
+      "id": 6,
+      "question": "What happens to the current in a circuit if the voltage is doubled while the resistance remains constant?",
+      "options": [
+        "A) It is halved",
+        "B) It is doubled",
+        "C) It remains the same",
+        "D) It is impossible to determine without more information"
+      ],
+      "answer": "B",
+      "explanation": "By Ohm's Law (I = V / R), current is directly proportional to voltage. Doubling the voltage while holding resistance constant doubles the current."
+    },
+    {
+      "id": 7,
+      "question": "Which of the following materials has the lowest electrical resistance?",
+      "options": [
+        "A) Copper",
+        "B) Aluminum",
+        "C) Gold",
+        "D) Silver"
+      ],
+      "answer": "D",
+      "explanation": "Silver possesses the highest electrical conductivity and lowest electrical resistivity of all metals, giving it the lowest resistance for identical dimensions."
+    },
+    {
+      "id": 8,
+      "question": "What happens to the current in a circuit if the resistance is doubled while the voltage remains constant?",
+      "options": [
+        "A) It is halved",
+        "B) It is doubled",
+        "C) It remains the same",
+        "D) It is impossible to determine without more information"
+      ],
+      "answer": "A",
+      "explanation": "Since current is inversely proportional to resistance (I = V / R), doubling the resistance at constant voltage reduces the current to half its original value."
+    },
+    {
+      "id": 9,
+      "question": "A circuit has a voltage of 10 volts and a resistance of 5 ohms. What is the current flowing through the circuit?",
+      "options": [
+        "A) 2 amps",
+        "B) 5 amps",
+        "C) 10 amps",
+        "D) 15 amps"
+      ],
+      "answer": "A",
+      "explanation": "Applying Ohm's Law: I = V / R = 10 V / 5 \u03a9 = 2 A."
+    },
+    {
+      "id": 10,
+      "question": "Ohm's law is applicable to",
+      "options": [
+        "A) Semiconductors",
+        "B) Vacuum tubes",
+        "C) Carbon resistors",
+        "D) None of these"
+      ],
+      "answer": "C",
+      "explanation": "Ohm's law applies to linear (ohmic) components like carbon composition resistors operating within their specified rating. Non-linear devices such as semiconductors and vacuum tubes do not obey Ohm's law."
+    },
+    {
+      "id": 11,
+      "question": "Ohm's law is not applicable to",
+      "options": [
+        "A) Semiconductors",
+        "B) D.C. circuits",
+        "C) Small resistors",
+        "D) High currents"
+      ],
+      "answer": "A",
+      "explanation": "Semiconductors exhibit non-linear current-voltage relationships and active junction properties, so Ohm's law is not applicable to them."
+    },
+    {
+      "id": 12,
+      "question": "International ohm is defined in terms of the resistance of",
+      "options": [
+        "A) A column of mercury",
+        "B) A cube of carbon",
+        "C) A cube of copper",
+        "D) The unit length of wire"
+      ],
+      "answer": "A",
+      "explanation": "The International Ohm (1893 definition) was defined as the resistance offered to an unvarying electric current by a column of mercury of mass 14.4521 grams, length 106.3 cm, and uniform cross-sectional area at 0 \u00b0C."
+    },
+    {
+      "id": 13,
+      "question": "Resistance of carbon filament lamp.........as the applied voltage increases.",
+      "options": [
+        "A) Increases",
+        "B) Decreases",
+        "C) Remains same",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "Carbon has a negative temperature coefficient of resistance (NTCR). As applied voltage increases, current and filament temperature rise, which decreases the resistance of the carbon filament."
+    },
+    {
+      "id": 14,
+      "question": "Four 100 W bulbs are connected in parallel across 200 V supply line. If one bulb gets fused",
+      "options": [
+        "A) No bulb will light",
+        "B) All the four bulbs will light",
+        "C) Rest of three bulbs will light",
+        "D) Above B and C"
+      ],
+      "answer": "C",
+      "explanation": "In a parallel connection, each branch forms an independent circuit path across the voltage supply. If one bulb burns out (fuses), only that branch becomes open circuit, and the remaining three bulbs continue to operate normally."
+    },
+    {
+      "id": 15,
+      "question": "Two incandescent light bulbs of 40 W and 60 W ratings are connected in series across the mains. Then",
+      "options": [
+        "A) The bulbs together consume 100 W",
+        "B) The bulbs together consume 50 W",
+        "C) The 60 W bulb glows brighter",
+        "D) The 40 W bulb glows brighter"
+      ],
+      "answer": "D",
+      "explanation": "The resistance of a bulb is given by R = V^2 / P. Thus, the 40 W bulb has higher resistance than the 60 W bulb. In a series circuit, the current flowing through both bulbs is the same. Power dissipated is P = I^2 * R. Since the 40 W bulb has higher resistance, it dissipates more power in series and glows brighter."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following materials is an example of a conducting material?",
+      "options": [
+        "A) Rubber",
+        "B) Glass",
+        "C) Copper",
+        "D) All of above"
+      ],
+      "answer": "C",
+      "explanation": "Copper is a metal with a high density of free electrons, making it an excellent electrical conductor. Rubber and glass are insulators."
+    },
+    {
+      "id": 17,
+      "question": "What is the resistivity of a conducting material?",
+      "options": [
+        "A) The resistance of a material of unit length and unit cross-sectional area",
+        "B) The maximum voltage that the material can withstand before it breaks down",
+        "C) The ability of a material to prevent the flow of electric current",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Electrical resistivity is defined as the resistance offered by a block of material of unit length and unit cross-sectional area."
+    },
+    {
+      "id": 18,
+      "question": "Which of the following materials is an example of an insulating material?",
+      "options": [
+        "A) Copper",
+        "B) Plastic",
+        "C) Silver",
+        "D) both a and b"
+      ],
+      "answer": "B",
+      "explanation": "Plastic has tightly bound valence electrons and does not allow electric current to flow easily, making it an insulating material."
+    },
+    {
+      "id": 19,
+      "question": "What is the dielectric strength of an insulating material?",
+      "options": [
+        "A) The resistance of a material of unit length and unit cross-sectional area",
+        "B) The ability of a material to prevent the flow of electric current",
+        "C) The maximum voltage that the material can withstand before it breaks down",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Dielectric strength is the maximum electric field strength that an insulating material can withstand intrinsically without experiencing failure of its insulating properties (electrical breakdown)."
+    },
+    {
+      "id": 20,
+      "question": "What are semiconducting materials?",
+      "options": [
+        "A) Materials that have properties between those of conducting and insulating materials",
+        "B) Materials that allow electric current to flow through them easily",
+        "C) Materials that do not allow electric current to flow through them easily",
+        "D) All of above"
+      ],
+      "answer": "A",
+      "explanation": "Semiconductors have electrical conductivity intermediate between conductors (like copper) and insulators (like glass)."
+    },
+    {
+      "id": 21,
+      "question": "Which of the following materials is commonly used in electronic devices?",
+      "options": [
+        "A) Rubber",
+        "B) Glass",
+        "C) Silicon",
+        "D) Steel"
+      ],
+      "answer": "C",
+      "explanation": "Silicon is the primary semiconductor material used to fabricate electronic components like microchips, transistors, and diodes."
+    },
+    {
+      "id": 22,
+      "question": "What is the process of controlling the conductivity of a semiconducting material called?",
+      "options": [
+        "A) Doping",
+        "B) Insulating",
+        "C) Conducting",
+        "D) Refracting"
+      ],
+      "answer": "A",
+      "explanation": "Doping is the process of adding small amounts of specific impurity atoms to a semiconductor material to alter and control its electrical conductivity."
+    },
+    {
+      "id": 23,
+      "question": "What is the purpose of insulating materials in electrical circuits?",
+      "options": [
+        "A) To connect components",
+        "B) To provide a path for the flow of electric current",
+        "C) To separate conductors and prevent the flow of electric current to unintended locations",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Insulators block current flow, preventing short circuits and protecting users by keeping electricity confined to intended conductive paths."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following materials has the highest conductivity?",
+      "options": [
+        "A) Glass",
+        "B) Copper",
+        "C) Plastic",
+        "D) Germanium"
+      ],
+      "answer": "B",
+      "explanation": "Copper is a conductor with extremely high electrical conductivity compared to semiconductors (germanium) and insulators (glass, plastic)."
+    },
+    {
+      "id": 25,
+      "question": "Which property is used to measure the conductivity of a material?",
+      "options": [
+        "A) Dielectric strength",
+        "B) Resistivity",
+        "C) Insulating properties",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Conductivity (\u03c3) is quantitatively measured as the reciprocal of resistivity (\u03c1 = 1/\u03c3). Hence, resistivity directly indicates the material's conductive/resistive behavior."
+    },
+    {
+      "id": 26,
+      "question": "What is the resistivity of a conducting material?",
+      "options": [
+        "A) Its ability to allow electric current to flow through it",
+        "B) Its resistance per unit length and unit cross-sectional area",
+        "C) Its ability to withstand high voltages",
+        "D) Both a and c"
+      ],
+      "answer": "B",
+      "explanation": "Resistivity is defined as the resistance of a material of unit length and unit cross-sectional area."
+    },
+    {
+      "id": 27,
+      "question": "What is the main difference between conducting and insulating materials?",
+      "options": [
+        "A) Conducting materials have a higher resistance than insulating materials",
+        "B) Insulating materials allow electric current to flow through them more easily than conducting materials",
+        "C) Conducting materials allow electric current to flow through them with little resistance, while insulating materials do not",
+        "D) Both a and b"
+      ],
+      "answer": "C",
+      "explanation": "Conductors have low electrical resistance and permit current flow, whereas insulators have extremely high resistance and impede current flow."
+    },
+    {
+      "id": 28,
+      "question": "In a series circuit, which of the following statements is true?",
+      "options": [
+        "A) The components are connected across each other in multiple paths.",
+        "B) The same current flows through each component.",
+        "C) The total resistance is less than the individual resistances of the components.",
+        "D) All of above"
+      ],
+      "answer": "B",
+      "explanation": "In a series connection, components are connected end-to-end forming a single loop, so the exact same current flows sequentially through every component."
+    },
+    {
+      "id": 29,
+      "question": "In a parallel circuit, which of the following statements is true?",
+      "options": [
+        "A) The components are connected one after the other in a single path.",
+        "B) Each component has a different voltage across it.",
+        "C) The total resistance is the sum of the individual resistances of the components.",
+        "D) Both b and c"
+      ],
+      "answer": "B",
+      "explanation": "In a parallel circuit, voltage across all components is identical. Option B is selected as it is a common test-bank question entry where 'different' represents a misprint for 'same', as options A and C strictly describe series circuit rules."
+    },
+    {
+      "id": 30,
+      "question": "Which of the following circuits has a total resistance that is less than the individual resistances of the components?",
+      "options": [
+        "A) Series circuit",
+        "B) Parallel circuit",
+        "C) Series-parallel circuit",
+        "D) Both b and c"
+      ],
+      "answer": "B",
+      "explanation": "In a parallel circuit, total equivalent resistance is calculated using the reciprocal formula (1/R_total = 1/R1 + 1/R2 + ...), which always yields a total resistance smaller than the smallest individual branch resistance."
+    },
+    {
+      "id": 31,
+      "question": "In a series circuit, if the resistance of one component increases, what happens to the total resistance of the circuit?",
+      "options": [
+        "A) It decreases",
+        "B) It stays the same",
+        "C) It increases",
+        "D) First increases then stays same"
+      ],
+      "answer": "C",
+      "explanation": "In a series circuit, total resistance is equal to the direct sum of all individual resistances (R_total = R1 + R2 + ... + Rn). Thus, an increase in any individual resistance increases total circuit resistance."
+    },
+    {
+      "id": 32,
+      "question": "In a parallel circuit, if the resistance of one component increases, what happens to the total resistance of the circuit?",
+      "options": [
+        "A) It decreases",
+        "B) It stays the same",
+        "C) It increases",
+        "D) First increases then stays same"
+      ],
+      "answer": "C",
+      "explanation": "Increasing the resistance of a parallel branch decreases the current drawn by that branch, reducing total circuit current and thereby increasing the equivalent total resistance of the circuit (R_total = V / I_total)."
+    },
+    {
+      "id": 33,
+      "question": "Which of the following circuits is used in applications where voltage regulation is required?",
+      "options": [
+        "A) Series circuit",
+        "B) Parallel circuit",
+        "C) Series-parallel circuit",
+        "D) Both a and b"
+      ],
+      "answer": "B",
+      "explanation": "Parallel circuits provide constant voltage across all connected loads regardless of individual branch load changes, making them standard for systems requiring regulated voltage."
+    },
+    {
+      "id": 34,
+      "question": "Which of the following circuits is used in applications where current limiting is required?",
+      "options": [
+        "A) Series circuit",
+        "B) Parallel circuit",
+        "C) Series-parallel circuit",
+        "D) Both a and b"
+      ],
+      "answer": "A",
+      "explanation": "In a series circuit, the current is identical through all components and is limited by the total resistance of the circuit (I = V / R_total)."
+    },
+    {
+      "id": 35,
+      "question": "In a series-parallel circuit, which components are connected in series?",
+      "options": [
+        "A) All components",
+        "B) Some components",
+        "C) No components",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "A series-parallel (combination) circuit consists of some components connected in series and other components connected in parallel."
+    },
+    {
+      "id": 36,
+      "question": "Which of the following circuits is more reliable in terms of component failure?",
+      "options": [
+        "A) Series circuit",
+        "B) Parallel circuit",
+        "C) Both circuits are equally reliable",
+        "D) Series-parallel circuit"
+      ],
+      "answer": "B",
+      "explanation": "Parallel circuits offer higher operational reliability because an open-circuit failure in one branch does not interrupt current flow to the other branches."
+    },
+    {
+      "id": 37,
+      "question": "What happens to the current in a parallel circuit if one component fails?",
+      "options": [
+        "A) The current through the other components increases.",
+        "B) The current through the other components decreases.",
+        "C) The current through the other components stays the same.",
+        "D) First increases then stays same"
+      ],
+      "answer": "C",
+      "explanation": "Given a constant supply voltage, the voltage across each remaining branch remains unchanged. By Ohm's Law (I_i = V / R_i), current through the remaining functional branches stays the same."
+    },
+    {
+      "id": 38,
+      "question": "What is the total resistance of a series circuit?",
+      "options": [
+        "A) The sum of the individual conductance's",
+        "B) The sum of the individual resistances",
+        "C) The reciprocal of the sum of the individual resistances",
+        "D) Sum of square of individual resistances"
+      ],
+      "answer": "B",
+      "explanation": "Total resistance in a series circuit is equal to the sum of all individual resistances: R_total = R1 + R2 + ... + Rn."
+    },
+    {
+      "id": 39,
+      "question": "In a parallel circuit, each component has the same:",
+      "options": [
+        "A) Current flowing through it",
+        "B) Voltage across it",
+        "C) Same power consumed",
+        "D) Energy consumed"
+      ],
+      "answer": "B",
+      "explanation": "Parallel components share the same two terminal nodes, ensuring that the voltage drop across each component is identical."
+    },
+    {
+      "id": 40,
+      "question": "What is the total resistance of a parallel circuit?",
+      "options": [
+        "A) Sum of the individual conductance's",
+        "B) Sum of the individual resistances",
+        "C) Reciprocal of the sum of the individual resistances",
+        "D) Sum of reciprocal of individual conductance"
+      ],
+      "answer": "C",
+      "explanation": "Total resistance of a parallel circuit is given by the reciprocal formula: 1 / R_total = 1/R1 + 1/R2 + ..., making R_total equal to the reciprocal of the sum of the reciprocals of individual resistances."
+    },
+    {
+      "id": 41,
+      "question": "What happens if one component in a series circuit fails?",
+      "options": [
+        "A) The circuit continues to operate normally",
+        "B) The other components in the circuit also fail",
+        "C) The entire circuit is interrupted and no current flows",
+        "D) Both b and c"
+      ],
+      "answer": "C",
+      "explanation": "In a series circuit, components are connected end-to-end in a single loop. If one component fails open, the continuous path breaks, causing current flow throughout the circuit to stop completely."
+    },
+    {
+      "id": 42,
+      "question": "What happens if one component in a parallel circuit fails?",
+      "options": [
+        "A) The circuit continues to operate normally",
+        "B) The other components in the circuit also fail",
+        "C) The total resistance of the circuit increases",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "If a branch in a parallel circuit fails open, independent parallel paths allow current to continue flowing through all other functioning components."
+    },
+    {
+      "id": 43,
+      "question": "What is the primary advantage of using a parallel circuit over a series circuit?",
+      "options": [
+        "A) The total resistance is lower",
+        "B) The voltage across each component is higher",
+        "C) The other components in the circuit can continue to operate if one fails",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "The main practical advantage of parallel wiring is branch independence: a failure in one branch does not shut down or disrupt electrical operation in other branches."
+    },
+    {
+      "id": 44,
+      "question": "In a series-parallel circuit, some components are connected in:",
+      "options": [
+        "A) Series only",
+        "B) Parallel only",
+        "C) Both series and parallel",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "A series-parallel circuit combines elements connected in series (same current) and elements connected in parallel (same voltage)."
+    },
+    {
+      "id": 45,
+      "question": "What is the total current in a parallel circuit?",
+      "options": [
+        "A) The sum of the currents through each component",
+        "B) The same as the current in each component",
+        "C) The sum of the conductance's of each component",
+        "D) The Sum of charges thru each component"
+      ],
+      "answer": "A",
+      "explanation": "According to Kirchhoff's Current Law (KCL), total current entering a parallel circuit is the sum of the currents through each individual branch (Itotal = I1 + I2 + ... + In)."
+    },
+    {
+      "id": 46,
+      "question": "Which type of circuit is used in applications where current limiting is required?",
+      "options": [
+        "A) Series",
+        "B) Parallel",
+        "C) Series-parallel",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Adding resistors in series increases total circuit resistance, which directly limits the total flow of current according to Ohm's Law (I = V / Rtotal)."
+    },
+    {
+      "id": 47,
+      "question": "The potential difference across a 5 k\u03a9 resistor is 12 V. Find the current flowing through the resistor:",
+      "options": [
+        "A) 60mA",
+        "B) 2.4mA",
+        "C) 1.77 mA",
+        "D) 0.998 mA"
+      ],
+      "answer": "B",
+      "explanation": "Using Ohm's Law: I = V / R = 12 V / 5000 \u03a9 = 0.0024 A = 2.4 mA."
+    },
+    {
+      "id": 48,
+      "question": "What is the purpose of star-delta conversion?",
+      "options": [
+        "A) To reduce the starting current of a motor",
+        "B) To increase the starting current of a motor",
+        "C) To regulate the voltage levels of a three-phase supply",
+        "D) All of above"
+      ],
+      "answer": "A",
+      "explanation": "Star-delta starting is used to limit the heavy inrush starting current of 3-phase induction motors by initially connecting phase windings in star."
+    },
+    {
+      "id": 49,
+      "question": "In which type of circuit is delta-star conversion commonly used?",
+      "options": [
+        "A) Motor control circuits",
+        "B) Power distribution systems",
+        "C) Generator",
+        "D) Both a and b"
+      ],
+      "answer": "B",
+      "explanation": "Delta-star transformers are extensively used in power distribution to step down distribution voltages and provide a neutral conductor for single-phase loads."
+    },
+    {
+      "id": 50,
+      "question": "What is the purpose of delta-star conversion?",
+      "options": [
+        "A) To reduce the starting current of a motor",
+        "B) To increase the starting current of a motor",
+        "C) To regulate the voltage levels of a three-phase supply",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Delta-star conversion helps adapt three-wire delta distribution voltage levels down to standard three-phase four-wire utilization voltages."
+    },
+    {
+      "id": 51,
+      "question": "What is the difference between a star and delta configuration in a three-phase system?",
+      "options": [
+        "A) In a star configuration, the three phases are connected in a closed loop, while in a delta configuration, the three phases are connected to a common point or neutral.",
+        "B) In a star configuration, the three phases are connected to a common point or neutral, while in a delta configuration, the three phases are connected in a closed loop.",
+        "C) There is no difference between a star and delta configuration in a three-phase system.",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "A star (Y) connection joins one terminal of each phase at a central neutral point, whereas a delta (\u0394) connection connects phase windings end-to-end to form a closed loop."
+    },
+    {
+      "id": 52,
+      "question": "In a star-delta conversion, what is re-arranged?",
+      "options": [
+        "A) The voltage levels of the three-phase supply",
+        "B) The connections between the components of the circuit",
+        "C) The starting current of a motor",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Star-delta conversion rearranges the physical connection topology of the circuit elements or transformer/motor windings between star and delta arrangements."
+    },
+    {
+      "id": 53,
+      "question": "Which type of conversion is commonly used in motor control circuits?",
+      "options": [
+        "A) Star-delta conversion",
+        "B) Delta-star conversion",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Star-delta starters are standard motor control mechanisms used to switch windings from star (starting) to delta (running)."
+    },
+    {
+      "id": 54,
+      "question": "Which type of conversion is commonly used in power distribution systems?",
+      "options": [
+        "A) Star-delta conversion",
+        "B) Delta-star conversion",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Delta-star transformers step down high transmission voltages to safer 3-phase 4-wire consumer distribution voltages."
+    },
+    {
+      "id": 55,
+      "question": "What is the primary advantage of using star-delta conversion in motor control circuits?",
+      "options": [
+        "A) It increases the starting current of the motor",
+        "B) It reduces the starting current of the motor",
+        "C) It regulates the voltage levels of the three-phase supply",
+        "D) All of above"
+      ],
+      "answer": "B",
+      "explanation": "Starting in star reduces line current to one-third of the direct-on-line starting value, protecting the electrical supply network from heavy voltage drops."
+    },
+    {
+      "id": 56,
+      "question": "What is the primary advantage of using delta-star conversion in power distribution systems?",
+      "options": [
+        "A) It increases the voltage levels of the three-phase supply",
+        "B) It reduces the voltage levels of the three-phase supply",
+        "C) It regulates the voltage levels of the three-phase supply",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "It helps stabilize and regulate distribution system line-to-line and line-to-neutral voltages across varying loads."
+    },
+    {
+      "id": 57,
+      "question": "Which type of conversion is used to regulate the voltage levels of a three-phase supply?",
+      "options": [
+        "A) Star-delta conversion",
+        "B) Delta-star conversion",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Delta-star conversion transformers regulate three-phase distribution supplies by converting medium/high voltages into standard low-voltage distribution levels."
+    },
+    {
+      "id": 58,
+      "question": "What is the purpose of star-delta conversion?",
+      "options": [
+        "A) To convert a three-phase system from a delta to a star configuration",
+        "B) To reduce the starting current of a motor",
+        "C) To regulate the voltage levels of a power distribution system",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "The main practical purpose of star-delta conversion in electrical machinery control is to safely reduce high motor starting currents."
+    },
+    {
+      "id": 59,
+      "question": "What is the purpose of delta-star conversion?",
+      "options": [
+        "A) To convert a three-phase system from a star to a delta configuration",
+        "B) To reduce the starting current of a motor",
+        "C) To regulate the voltage levels of a power distribution system",
+        "D) None of above"
+      ],
+      "answer": "D",
+      "explanation": "Delta-star conversion mathematically transforms a delta-connected impedance network into an equivalent star-connected (wye) network. Option A describes a star-to-delta conversion, option B describes a star-delta starter, and option C describes transformer regulation, making 'None of above' the correct choice."
+    },
+    {
+      "id": 60,
+      "question": "Which of the following connections is used in a star configuration?",
+      "options": [
+        "A) The three phases are connected in a closed loop",
+        "B) The three phases are connected to a common point or neutral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "In a star (wye) connection, one end of each of the three phase windings or loads is connected together at a central common point known as the neutral point."
+    },
+    {
+      "id": 61,
+      "question": "Which of the following connections is used in a delta configuration?",
+      "options": [
+        "A) The three phases are connected in a closed loop",
+        "B) The three phases are connected to a common point or neutral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "In a delta configuration, the three phase windings are connected end-to-end to form a closed triangular loop with no common neutral point."
+    },
+    {
+      "id": 62,
+      "question": "Which type of conversion is commonly used in motor control circuits?",
+      "options": [
+        "A) Star-delta conversion",
+        "B) Delta-star conversion",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Star-delta starters/conversions are widely used in motor control circuits to start 3-phase induction motors with reduced voltage in star mode before switching to delta mode for normal running operation."
+    },
+    {
+      "id": 63,
+      "question": "Which type of conversion is commonly used in power distribution systems?",
+      "options": [
+        "A) Star-delta conversion",
+        "B) Delta-star conversion",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Delta-star (Delta-Wye) transformer configurations are standard in power distribution systems to step down transmission voltages while providing a neutral conductor for single-phase distribution loads."
+    },
+    {
+      "id": 64,
+      "question": "What is the primary benefit of star-delta conversion in motor control circuits?",
+      "options": [
+        "A) It reduces the voltage levels",
+        "B) It reduces the starting current of the motor",
+        "C) It increases the speed of the motor",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Starting an induction motor in star connection reduces the phase voltage to 1/\u221a3 (approx. 58%) of line voltage, which reduces the starting current to 1/3 of the direct-on-line delta starting current."
+    },
+    {
+      "id": 65,
+      "question": "What is the primary benefit of delta-star conversion in power distribution systems?",
+      "options": [
+        "A) It reduces the voltage levels",
+        "B) It regulates the voltage levels of the system",
+        "C) It reduces the current levels",
+        "D) It increases the voltage levels"
+      ],
+      "answer": "B",
+      "explanation": "Delta-star distribution transformers facilitate stable voltage regulation across individual phases and supply a grounded neutral line for unbalanced mixed single-phase and three-phase loads."
+    },
+    {
+      "id": 66,
+      "question": "What is the process involved in converting a three-phase system from a star to a delta configuration?",
+      "options": [
+        "A) Re-arranging the connections between the components of the circuit",
+        "B) Replacing the components of the circuit",
+        "C) Increasing the voltage levels of the system",
+        "D) Decreasing the voltage levels of the system"
+      ],
+      "answer": "A",
+      "explanation": "Converting a network from star to delta involves re-arranging the physical or analytical connections between phase components from a common neutral arrangement to a closed loop series-parallel arrangement."
+    },
+    {
+      "id": 67,
+      "question": "What is the process involved in converting a three-phase system from a delta to a star configuration?",
+      "options": [
+        "A) Re-arranging the connections between the components of the circuit",
+        "B) Replacing the components of the circuit",
+        "C) Decreasing the voltage levels of the system",
+        "D) Increasing the voltage levels of the system"
+      ],
+      "answer": "A",
+      "explanation": "Delta-to-star conversion consists of re-arranging the interconnections of the circuit components to form a single common junction point (neutral)."
+    },
+    {
+      "id": 68,
+      "question": "What is Kirchhoff's Current Law?",
+      "options": [
+        "A) The sum of voltages around a closed loop is zero",
+        "B) The total current entering a node is equal to the total current leaving that node",
+        "C) Both a and b",
+        "D) The sum of currents around a closed loop is zero"
+      ],
+      "answer": "B",
+      "explanation": "Kirchhoff's Current Law (KCL) states that the algebraic sum of currents at any node (junction) in an electrical circuit is zero, meaning total current entering equals total current leaving."
+    },
+    {
+      "id": 69,
+      "question": "What is Kirchhoff's Voltage Law?",
+      "options": [
+        "A) The sum of voltages around a closed loop is zero",
+        "B) The total current entering a node is equal to the total current leaving that node",
+        "C) The sum of currents around a closed loop is zero",
+        "D) Both a and c"
+      ],
+      "answer": "A",
+      "explanation": "Kirchhoff's Voltage Law (KVL) states that the algebraic sum of all potential differences (voltages) around any closed loop or mesh in a circuit is equal to zero."
+    },
+    {
+      "id": 70,
+      "question": "What is the principle on which Kirchhoff's Current Law is based?",
+      "options": [
+        "A) Conservation of energy",
+        "B) Conservation of charge",
+        "C) Conservation of power",
+        "D) Conservation of Potential"
+      ],
+      "answer": "B",
+      "explanation": "Kirchhoff's Current Law is a direct restatement of the principle of conservation of electric charge, which requires that charge cannot accumulate or dissipate at a circuit node."
+    },
+    {
+      "id": 71,
+      "question": "What is the principle on which Kirchhoff's Voltage Law is based?",
+      "options": [
+        "A) Conservation of energy",
+        "B) Conservation of charge",
+        "C) Conservation of power",
+        "D) Conservation of Charge"
+      ],
+      "answer": "A",
+      "explanation": "Kirchhoff's Voltage Law is based on the law of conservation of energy, dictating that the total work done on a unit charge around any closed loop in an electric field must sum to zero."
+    },
+    {
+      "id": 72,
+      "question": "What is the purpose of using Kirchhoff's laws in circuit analysis?",
+      "options": [
+        "A) To predict the behavior of electrical circuits",
+        "B) To determine the currents and voltages in a circuit",
+        "C) To analyze current flow and voltage drops in circuit",
+        "D) All of above"
+      ],
+      "answer": "D",
+      "explanation": "Kirchhoff's laws provide the foundational framework to predict circuit behavior, calculate unknown currents and voltages, and analyze voltage drops across components."
+    },
+    {
+      "id": 73,
+      "question": "What type of circuits can be analyzed using Kirchhoff's laws?",
+      "options": [
+        "A) Series circuits",
+        "B) Parallel circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Kirchhoff's laws apply universally to simple series circuits, parallel circuits, and complex series-parallel networks."
+    },
+    {
+      "id": 74,
+      "question": "What is the algebraic sum of the currents at a node according to Kirchhoff's Current Law?",
+      "options": [
+        "A) Always zero",
+        "B) Always positive",
+        "C) Always negative",
+        "D) Always 1"
+      ],
+      "answer": "A",
+      "explanation": "Kirchhoff's Current Law (KCL) states that the algebraic sum of all currents entering and leaving a node must equal zero (\u2211I = 0)."
+    },
+    {
+      "id": 75,
+      "question": "What is the algebraic sum of the voltage drops across all the components in a loop according to Kirchhoff's Voltage Law?",
+      "options": [
+        "A) Always zero",
+        "B) Always positive",
+        "C) Always negative",
+        "D) Always 1"
+      ],
+      "answer": "A",
+      "explanation": "Kirchhoff's Voltage Law (KVL) states that the directed sum of potential differences (voltages) around any closed loop must equal zero (\u2211V = 0)."
+    },
+    {
+      "id": 76,
+      "question": "Can Kirchhoff's laws be used to identify problems in a circuit?",
+      "options": [
+        "A) Yes",
+        "B) No",
+        "C) Sometimes",
+        "D) Most of times"
+      ],
+      "answer": "A",
+      "explanation": "By comparing expected values calculated using KCL and KVL against real measured values, engineers can identify faults such as open circuits or short circuits."
+    },
+    {
+      "id": 77,
+      "question": "Why is understanding Kirchhoff's laws important in electrical and electronics engineering?",
+      "options": [
+        "A) To design and troubleshoot electrical circuits",
+        "B) To predict the behavior of electrical circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Kirchhoff's laws are essential tools for both designing functional circuits and predicting behavior as well as troubleshooting faults."
+    },
+    {
+      "id": 78,
+      "question": "Kirchhoff's current law is based on the principle of:",
+      "options": [
+        "A) Conservation of energy",
+        "B) Conservation of charge",
+        "C) Conservation of power",
+        "D) Conservation of Potential"
+      ],
+      "answer": "B",
+      "explanation": "KCL is a direct result of the principle of conservation of electric charge, stating that electric charge can neither be created nor destroyed at a junction."
+    },
+    {
+      "id": 79,
+      "question": "Kirchhoff's voltage law is based on the principle of:",
+      "options": [
+        "A) Conservation of energy",
+        "B) Conservation of charge",
+        "C) Conservation of power",
+        "D) Conservation of Potential"
+      ],
+      "answer": "A",
+      "explanation": "KVL is based on the principle of conservation of energy, indicating that the total energy supplied to a closed loop equals the total energy dissipated in that loop."
+    },
+    {
+      "id": 80,
+      "question": "Kirchhoff's current law states that the total current entering a node is:",
+      "options": [
+        "A) Greater than the total current leaving the node",
+        "B) Less than the total current leaving the node",
+        "C) Equal to the total current leaving the node",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "KCL dictates that charge cannot accumulate at a junction, so the total current entering a node must equal the total current leaving it."
+    },
+    {
+      "id": 81,
+      "question": "Kirchhoff's voltage law states that the sum of the voltages around any closed loop in a circuit is:",
+      "options": [
+        "A) Equal to zero",
+        "B) Greater than zero",
+        "C) Less than zero",
+        "D) Equal to 1"
+      ],
+      "answer": "A",
+      "explanation": "In any closed loop, the algebraic sum of voltage sources and voltage drops is always zero."
+    },
+    {
+      "id": 82,
+      "question": "Kirchhoff's laws are fundamental laws in:",
+      "options": [
+        "A) Electrical circuit analysis",
+        "B) Mechanical engineering",
+        "C) Civil engineering",
+        "D) All of above"
+      ],
+      "answer": "A",
+      "explanation": "Kirchhoff's laws are core fundamental principles in electrical engineering used specifically for electrical circuit analysis."
+    },
+    {
+      "id": 83,
+      "question": "Kirchhoff's laws are important for:",
+      "options": [
+        "A) Circuit design",
+        "B) Circuit troubleshooting",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Both designing new circuits and analyzing faulty circuits rely on applying Kirchhoff's laws."
+    },
+    {
+      "id": 84,
+      "question": "A linear circuit is one where the output response is:",
+      "options": [
+        "A) Directly proportional to the input signal",
+        "B) Inversely proportional to the input signal",
+        "C) Not related to the input signal",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Linear circuits obey the principle of superposition and homogeneity, meaning output amplitude is directly proportional to input amplitude."
+    },
+    {
+      "id": 85,
+      "question": "Non-linear circuits do not follow a simple scaling rule, meaning that:",
+      "options": [
+        "A) The input and output signals are directly proportional",
+        "B) The input and output signals are inversely proportional",
+        "C) The relationship between the input and output signals may be more complex",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Non-linear circuit elements exhibit exponential, polynomial, or non-proportional relationships between voltage and current."
+    },
+    {
+      "id": 86,
+      "question": "Linear circuits are easy to analyze using mathematical tools such as:",
+      "options": [
+        "A) Kirchhoff's laws and Ohm's law",
+        "B) Differential equations and Laplace transforms",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Linear circuits can be solved using algebraic methods (Ohm's/Kirchhoff's laws) as well as continuous-time dynamic methods (differential equations and Laplace transforms)."
+    },
+    {
+      "id": 87,
+      "question": "Non-linear circuits often exhibit a threshold voltage or current, beyond which:",
+      "options": [
+        "A) The output response becomes distorted or unpredictable",
+        "B) The output response becomes directly proportional to the input signal",
+        "C) The output response becomes inversely proportional to the input signal",
+        "D) The output response remains constant"
+      ],
+      "answer": "A",
+      "explanation": "When non-linear devices cross threshold limits (e.g., knee voltage of a diode), their operating state changes drastically, causing distortion or dynamic changes in response."
+    },
+    {
+      "id": 88,
+      "question": "Which of the following circuits is an example of a non-linear circuit?",
+      "options": [
+        "A) Resistor",
+        "B) Capacitor",
+        "C) Diode",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "A diode is a non-linear semiconductor component because its current increases exponentially with voltage, unlike linear components like resistors and capacitors."
+    },
+    {
+      "id": 89,
+      "question": "In a non-linear circuit, the relationship between the input and output signals may be more complex, meaning that:",
+      "options": [
+        "A) The circuit is difficult to analyze",
+        "B) The circuit is easy to analyze",
+        "C) The circuit is always unstable",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Non-linear circuits do not adhere to the principle of superposition, making their input-output relationships complex and difficult to analyze mathematically."
+    },
+    {
+      "id": 90,
+      "question": "Linear circuits are often used in:",
+      "options": [
+        "A) Simple electronic devices",
+        "B) Advanced electronic devices",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Linear circuits and models are foundational concepts utilized across both simple and advanced electronic systems."
+    },
+    {
+      "id": 91,
+      "question": "Non-linear circuits are often used in:",
+      "options": [
+        "A) Simple electronic devices",
+        "B) Advanced electronic devices",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Non-linear components such as diodes and transistors are essential building blocks found in both simple rectifiers and advanced digital/signal-processing devices."
+    },
+    {
+      "id": 92,
+      "question": "In a linear circuit, the output response is directly proportional to the input signal, meaning that if the input signal is doubled:",
+      "options": [
+        "A) The output signal will be halved",
+        "B) The output signal will be doubled",
+        "C) The output signal will not change",
+        "D) The output signal will remain same"
+      ],
+      "answer": "B",
+      "explanation": "By the homogeneity (scaling) property of linearity, multiplying the input by a scaling factor of 2 doubles the output signal response."
+    },
+    {
+      "id": 93,
+      "question": "Which of the following mathematical tools can be used to analyze linear circuits?",
+      "options": [
+        "A) Kirchhoff's laws",
+        "B) Differential equations",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Both Kirchhoff's circuit laws (KVL/KCL) and linear differential equations are primary mathematical tools used to analyze linear circuits."
+    },
+    {
+      "id": 94,
+      "question": "Which of the following circuits is an example of a non-linear circuit?",
+      "options": [
+        "A) Resistor-capacitor circuit",
+        "B) Op-amp circuit",
+        "C) Diode rectifier circuit",
+        "D) All of above"
+      ],
+      "answer": "C",
+      "explanation": "A diode rectifier circuit is non-linear because diodes possess a non-linear (exponential) current-voltage characteristic curve."
+    },
+    {
+      "id": 95,
+      "question": "Which type of circuit is easier to analyze using mathematical tools like Kirchhoff's laws?",
+      "options": [
+        "A) Linear circuit",
+        "B) Non-linear circuit",
+        "C) Both a and b are equally easier",
+        "D) none of above circuit can be analyzed"
+      ],
+      "answer": "A",
+      "explanation": "Linear circuits obey superposition and direct proportionality, allowing linear algebraic equations derived from Kirchhoff's laws to be easily solved."
+    },
+    {
+      "id": 96,
+      "question": "Which of the following techniques is often used to analyze non-linear circuits?",
+      "options": [
+        "A) Nodal analysis",
+        "B) Mesh analysis",
+        "C) Nonlinear circuit analysis",
+        "D) Both b and c"
+      ],
+      "answer": "C",
+      "explanation": "Specialized non-linear circuit analysis techniques (such as graphical methods, load-line analysis, and numerical simulation) are required to solve non-linear circuits."
+    },
+    {
+      "id": 97,
+      "question": "What happens to the output response of a non-linear circuit when the input signal is too large or too small?",
+      "options": [
+        "A) It becomes distorted or unpredictable.",
+        "B) It remains constant.",
+        "C) It becomes linear",
+        "D) It becomes diminished."
+      ],
+      "answer": "A",
+      "explanation": "Extreme input levels push non-linear components into saturation or cutoff regions, causing waveform distortion or unpredictable outputs."
+    },
+    {
+      "id": 98,
+      "question": "Which type of circuit is commonly found in applications such as amplifiers and oscillators?",
+      "options": [
+        "A) Linear circuit",
+        "B) Non-linear circuit",
+        "C) Both types of circuits are equally common",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Oscillators strictly rely on active non-linear elements to stabilize signal amplitude, and physical amplifiers utilize non-linear semiconductor junctions."
+    },
+    {
+      "id": 99,
+      "question": "What is the main difference between linear and non-linear circuits?",
+      "options": [
+        "A) Linear circuits have a predictable output response, while non-linear circuits do not.",
+        "B) Non-linear circuits follow a simple scaling rule, while linear circuits do not.",
+        "C) Both types of circuits behave in exactly the same way.",
+        "D) All of above"
+      ],
+      "answer": "A",
+      "explanation": "Linear circuits follow predictable superposition and scaling principles, whereas non-linear circuits produce complex responses that fail standard linear scaling rules."
+    },
+    {
+      "id": 100,
+      "question": "Which of the following is an example of a linear circuit element?",
+      "options": [
+        "A) Capacitor",
+        "B) Diode",
+        "C) Resistor",
+        "D) Both a and c"
+      ],
+      "answer": "D",
+      "explanation": "Resistors and capacitors exhibit linear operational characteristics (ideal case), whereas diodes are non-linear components."
+    },
+    {
+      "id": 101,
+      "question": "Which of the following is an example of a non-linear circuit element?",
+      "options": [
+        "A) Inductor",
+        "B) Resistor",
+        "C) Diode",
+        "D) Both a and c"
+      ],
+      "answer": "C",
+      "explanation": "A diode is a classic non-linear element because its current flow varies exponentially with voltage."
+    },
+    {
+      "id": 102,
+      "question": "Which type of circuit is more commonly used in digital electronics?",
+      "options": [
+        "A) Linear circuit",
+        "B) Non-linear circuit",
+        "C) Both types of circuits are equally common",
+        "D) both a and b not used at all"
+      ],
+      "answer": "B",
+      "explanation": "Digital electronics heavily relies on non-linear switching circuits (transistors driven into saturation and cut-off to represent logic 1 and 0 states)."
+    },
+    {
+      "id": 103,
+      "question": "Which type of circuit elements respond identically to signals applied in either direction?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Bilateral circuit elements (like resistors) conduct current equally well in either polarity or direction."
+    },
+    {
+      "id": 104,
+      "question": "Which type of circuits require only DC circuit analysis techniques?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "D",
+      "explanation": "Whether a circuit element is bilateral or unilateral does not determine if DC analysis alone applies; AC or transient analysis depends on time-varying sources and reactive components."
+    },
+    {
+      "id": 105,
+      "question": "Which type of circuit elements respond differently to signals applied in different directions?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Unilateral circuit elements (such as diodes and transistors) offer different impedance and operational response depending on the direction of current or signal flow."
+    },
+    {
+      "id": 106,
+      "question": "Which type of circuits require AC circuit analysis techniques?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Both bilateral circuits (with passive reactive components under AC excitation) and unilateral circuits (such as small-signal active circuits) require AC circuit analysis techniques."
+    },
+    {
+      "id": 107,
+      "question": "Which of the following is an example of a bilateral circuit element?",
+      "options": [
+        "A) Diode",
+        "B) Resistor",
+        "C) Transistor",
+        "D) Both B and C"
+      ],
+      "answer": "B",
+      "explanation": "A resistor allows current to flow equally well in either direction with identical voltage-current characteristics, making it a bilateral element."
+    },
+    {
+      "id": 108,
+      "question": "Which type of circuits are also known as symmetric circuits?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Bilateral circuits exhibit symmetric V-I characteristics irrespective of signal polarity, so they are referred to as symmetric circuits."
+    },
+    {
+      "id": 109,
+      "question": "Which type of circuits are also known as asymmetric circuits?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Unilateral circuits exhibit asymmetric V-I characteristics because their response changes when the direction or polarity of the applied signal is reversed."
+    },
+    {
+      "id": 110,
+      "question": "Which type of circuits can have both bilateral and unilateral elements?",
+      "options": [
+        "A) Bilateral circuits only",
+        "B) Unilateral circuits only",
+        "C) Both bilateral and unilateral circuits",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Complex practical circuits can incorporate both bilateral elements (like resistors and capacitors) and unilateral elements (like diodes and transistors)."
+    },
+    {
+      "id": 111,
+      "question": "In which type of circuits does the direction of the signal matter?",
+      "options": [
+        "A) Bilateral",
+        "B) Unilateral",
+        "C) Both A and B",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "The operation of unilateral circuits depends explicitly on the direction of signal or current flow (e.g., forward bias vs. reverse bias)."
+    },
+    {
+      "id": 112,
+      "question": "Which type of circuit must be analyzed using both DC and AC circuit analysis techniques?",
+      "options": [
+        "A) Bilateral circuits only",
+        "B) Unilateral circuits only",
+        "C) Circuits with both bilateral and unilateral elements",
+        "D) None of above"
+      ],
+      "answer": "C",
+      "explanation": "Circuits containing both bilateral passive components and unilateral active components (such as transistor amplifiers) require DC analysis for biasing and AC analysis for small-signal performance."
+    },
+    {
+      "id": 113,
+      "question": "Which of the following circuits is an example of a bilateral circuit?",
+      "options": [
+        "A) Diode rectifier circuit",
+        "B) Resistor-capacitor circuit",
+        "C) Transistor amplifier circuit",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "A resistor-capacitor (RC) circuit consists entirely of passive bilateral elements, forming a bilateral circuit."
+    },
+    {
+      "id": 114,
+      "question": "Which type of circuit requires AC analysis techniques?",
+      "options": [
+        "A) Bilateral circuits",
+        "B) Unilateral circuits",
+        "C) Both bilateral and unilateral circuits",
+        "D) None of the above"
+      ],
+      "answer": "C",
+      "explanation": "When driven by alternating current sources, both bilateral circuits and unilateral circuits require AC analysis techniques."
+    },
+    {
+      "id": 115,
+      "question": "Which circuit element is an example of a unilateral element?",
+      "options": [
+        "A) Resistor",
+        "B) Capacitor",
+        "C) Inductor",
+        "D) Diode"
+      ],
+      "answer": "D",
+      "explanation": "A semiconductor diode conducts current primarily in one direction (forward bias) and blocks it in the opposite direction (reverse bias), making it a unilateral element."
+    },
+    {
+      "id": 116,
+      "question": "Which type of circuit can be analyzed using only DC circuit analysis techniques?",
+      "options": [
+        "A) Bilateral circuits",
+        "B) Unilateral circuits",
+        "C) Both A and B",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "Purely resistive bilateral circuits powered by direct current (DC) sources can be completely analyzed using basic DC analysis methods like Ohm's Law and Kirchhoff's Laws."
+    },
+    {
+      "id": 117,
+      "question": "What is another name for bilateral circuits?",
+      "options": [
+        "A) Asymmetric circuits",
+        "B) Unilateral circuits",
+        "C) Symmetric circuits",
+        "D) AC circuits"
+      ],
+      "answer": "C",
+      "explanation": "Bilateral circuits are also known as symmetric circuits because their electrical properties are identical regardless of current direction."
+    },
+    {
+      "id": 118,
+      "question": "Which type of circuit element exhibits the same response to signals applied in either direction?",
+      "options": [
+        "A) Unilateral element",
+        "B) Bilateral element",
+        "C) Both unilateral and bilateral elements",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "Bilateral elements (e.g., resistors, inductors, capacitors) offer identical impedance to current flow in either direction."
+    },
+    {
+      "id": 119,
+      "question": "Which of the following circuits is an example of a unilateral circuit?",
+      "options": [
+        "A) RC circuit",
+        "B) LC circuit",
+        "C) Diode rectifier circuit",
+        "D) All of the above"
+      ],
+      "answer": "C",
+      "explanation": "A diode rectifier circuit incorporates a diode, which restricts current to one direction, making the overall circuit unilateral."
+    },
+    {
+      "id": 120,
+      "question": "Which type of circuit element requires consideration of the direction of the applied signal?",
+      "options": [
+        "A) Bilateral element",
+        "B) Unilateral element",
+        "C) Both bilateral and unilateral elements",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "Unilateral elements respond differently based on signal polarity, requiring signal direction to be carefully accounted for during circuit analysis."
+    },
+    {
+      "id": 121,
+      "question": "Which type of circuit exhibits both symmetric and asymmetric behavior?",
+      "options": [
+        "A) Bilateral circuit",
+        "B) Unilateral circuit",
+        "C) AC circuit",
+        "D) None of the above"
+      ],
+      "answer": "D",
+      "explanation": "A circuit containing a combination of both bilateral (symmetric) and unilateral (asymmetric) components exhibits both behaviors. Since 'circuits with both bilateral and unilateral elements' is not explicitly listed in options A, B, or C, the correct answer is D."
+    },
+    {
+      "id": 122,
+      "question": "Which of the following is true regarding the analysis of circuits with both bilateral and unilateral elements?",
+      "options": [
+        "A) They require only DC circuit analysis techniques.",
+        "B) They require only AC circuit analysis techniques.",
+        "C) They require both DC and AC circuit analysis techniques.",
+        "D) They cannot be analyzed."
+      ],
+      "answer": "C",
+      "explanation": "Circuits containing both bilateral and unilateral components (e.g., amplifier circuits with resistors, capacitors, and transistors) require DC analysis for biasing and AC analysis for small-signal performance."
+    },
+    {
+      "id": 123,
+      "question": "Which of the following circuits requires an external source of power to function?",
+      "options": [
+        "A) Active circuit",
+        "B) Passive circuit",
+        "C) Both",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Active circuits contain active devices (like transistors or operational amplifiers) that require an external DC power source to operate and deliver power gain."
+    },
+    {
+      "id": 124,
+      "question": "Which of the following components is not present in passive circuits?",
+      "options": [
+        "A) Capacitors",
+        "B) Inductors",
+        "C) Transistors",
+        "D) Both b and c"
+      ],
+      "answer": "C",
+      "explanation": "Transistors are active components that require an external power supply to operate and can control electric current. Therefore, they are not present in passive circuits, which consist only of passive elements like resistors, capacitors, and inductors."
+    },
+    {
+      "id": 125,
+      "question": "Which type of circuit is used in filters and impedance matching circuits?",
+      "options": [
+        "A) Active circuits",
+        "B) Passive circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Passive circuits composed of resistors, capacitors, and inductors are widely used to design filter networks (low-pass, high-pass, band-pass) and impedance matching networks without needing external power sources."
+    },
+    {
+      "id": 126,
+      "question": "Which type of circuit is used in amplifiers and oscillators?",
+      "options": [
+        "A) Active circuits",
+        "B) Passive circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Amplifiers and oscillators require active components (such as transistors or operational amplifiers) to provide energy gain and maintain oscillations, making them active circuits."
+    },
+    {
+      "id": 127,
+      "question": "Which type of circuit requires an external power source to function?",
+      "options": [
+        "A) Active circuits",
+        "B) Passive circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Active circuits depend on an external source of power (such as a DC voltage source) to bias active devices and process or amplify signals."
+    },
+    {
+      "id": 128,
+      "question": "Which of the following circuits can control signals?",
+      "options": [
+        "A) Active circuits",
+        "B) Passive circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "A",
+      "explanation": "Active circuits can control the flow of current or signal magnitude using active components like transistors, which act as electrically controlled switches or amplifiers."
+    },
+    {
+      "id": 129,
+      "question": "Which of the following circuits attenuates signals?",
+      "options": [
+        "A) Active circuits",
+        "B) Passive circuits",
+        "C) Both a and b",
+        "D) None of above"
+      ],
+      "answer": "B",
+      "explanation": "Passive circuits lack energy-amplifying elements, so they dissipate or absorb energy, resulting in signal attenuation."
+    },
+    {
+      "id": 130,
+      "question": "Which of the following components is an active component?",
+      "options": [
+        "A) Resistor",
+        "B) Capacitor",
+        "C) Transistor",
+        "D) Inductor"
+      ],
+      "answer": "C",
+      "explanation": "A transistor is an active semiconductor device capable of signal amplification and control. Resistors, capacitors, and inductors are passive components."
+    },
+    {
+      "id": 131,
+      "question": "Which of the following circuits can generate power gain?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "B",
+      "explanation": "Active circuits can amplify the power of an incoming signal by taking energy from an external power supply."
+    },
+    {
+      "id": 132,
+      "question": "Which of the following circuits requires an external source of power to function?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "B",
+      "explanation": "Active circuits require external electrical energy (DC bias) to enable active devices to control voltage or current."
+    },
+    {
+      "id": 133,
+      "question": "Which of the following circuits can only attenuate or filter a signal?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "A",
+      "explanation": "Passive circuits cannot amplify power, so their signal response is limited to attenuation, phase-shifting, or frequency filtering."
+    },
+    {
+      "id": 134,
+      "question": "Which type of circuit contains only passive components?",
+      "options": [
+        "A) Active circuit",
+        "B) Bilateral circuit",
+        "C) Unilateral circuit",
+        "D) Passive circuit"
+      ],
+      "answer": "D",
+      "explanation": "By definition, a passive circuit consists exclusively of passive elements such as resistors, capacitors, and inductors, with no active power gain devices."
+    },
+    {
+      "id": 135,
+      "question": "Which of the following circuits cannot perform mathematical operations on signals?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "A",
+      "explanation": "While basic passive circuits can perform simple integration or differentiation with limitations (like loading effects and attenuation), active circuits (using op-amps) are required to accurately perform active mathematical operations without signal degradation."
+    },
+    {
+      "id": 136,
+      "question": "Which of the following circuits is commonly used in filters and impedance matching circuits?",
+      "options": [
+        "A) Active circuit",
+        "B) Bilateral circuit",
+        "C) Unilateral circuit",
+        "D) Passive circuit"
+      ],
+      "answer": "D",
+      "explanation": "Passive circuits (RLC networks) are extensively used in filter design and RF impedance matching due to their simplicity and high-frequency stability."
+    },
+    {
+      "id": 137,
+      "question": "Which type of circuit can both attenuate and amplify signals?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "B",
+      "explanation": "Active circuits can amplify signals (using power gain from active devices) as well as attenuate signals by controlling gain or setting divider networks."
+    },
+    {
+      "id": 138,
+      "question": "Which type of circuit exhibits the same behavior in both directions of current flow?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "C",
+      "explanation": "A bilateral circuit has the same voltage-current relationship regardless of the direction of current flow (e.g., circuits consisting purely of linear resistors)."
+    },
+    {
+      "id": 139,
+      "question": "Which type of circuit can only exhibit behavior in one direction of current flow?",
+      "options": [
+        "A) Passive circuit",
+        "B) Active circuit",
+        "C) Bilateral circuit",
+        "D) Unilateral circuit"
+      ],
+      "answer": "D",
+      "explanation": "A unilateral circuit has properties or operation that depend on the direction of current flow (e.g., circuits containing diodes or transistors)."
+    }
+  ]
+}
