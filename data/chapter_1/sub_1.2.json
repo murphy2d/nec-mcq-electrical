@@ -10,7 +10,7 @@
         "D) To calculate power in circuits"
       ],
       "answer": "A",
-      "explanation": "The superposition theorem simplifies the analysis of complex linear circuits with multiple independent sources by breaking them down into simpler, single-source sub-circuits."
+      "explanation": "The superposition theorem is primarily used to simplify the analysis of complex linear circuits containing multiple independent sources by evaluating the response of one source at a time."
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
         "D) The circuit must contain only resistors"
       ],
       "answer": "A",
-      "explanation": "Superposition relies fundamentally on the principle of linearity (additivity and homogeneity), so the circuit must be linear."
+      "explanation": "Linearity is the essential requirement for superposition. The circuit components must follow linear V-I characteristics so that individual responses can be algebraically summed."
     },
     {
       "id": 3,
@@ -33,8 +33,8 @@
         "C) Each voltage source is turned on individually and the resulting voltage is added together",
         "D) Each voltage source is turned on individually and the resulting voltage is subtracted from the total voltage"
       ],
-      "answer": "C",
-      "explanation": "Superposition states that the total voltage across (or current through) any element is equal to the algebraic sum of the individual voltages (or currents) produced by each source acting independently."
+      "answer": "A",
+      "explanation": "Superposition requires activating one independent source at a time while deactivating all others, then algebraically summing the individual current or voltage responses."
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
         "D) Each current source is turned on individually and the resulting current is subtracted from the total current"
       ],
       "answer": "C",
-      "explanation": "The total response (such as branch current) is determined by summing algebraically the individual branch currents obtained when each current source is active one at a time."
+      "explanation": "When using superposition, each independent source is activated individually and the contributions to circuit variables (like branch currents) are summed algebraically."
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
         "D) It eliminates the need for Kirchhoff's laws"
       ],
       "answer": "A",
-      "explanation": "By considering only one source at a time while deactivating others, complex network equations are simplified into straightforward sub-problems."
+      "explanation": "By breaking down a multi-source circuit into several single-source sub-circuits, superposition simplifies complex circuit analysis."
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
         "D) It can only be used for circuits with few components"
       ],
       "answer": "B",
-      "explanation": "For circuits with a large number of sources, repeating circuit analysis for every individual source makes the method tedious and time-consuming compared to nodal or mesh analysis."
+      "explanation": "If a circuit has N independent sources, the circuit must be solved N separate times, making the process time-consuming for large circuits with many sources."
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
         "D) The principle of superposition"
       ],
       "answer": "D",
-      "explanation": "The theorem directly stems from the mathematical principle of superposition, which applies to any linear system where output is directly proportional to input."
+      "explanation": "The superposition theorem is derived directly from the principle of superposition, which applies to homogeneous linear systems."
     },
     {
       "id": 8,
@@ -94,7 +94,7 @@
         "D) Linear circuits"
       ],
       "answer": "D",
-      "explanation": "The superposition theorem is specifically used for analyzing linear circuits."
+      "explanation": "Superposition is valid exclusively for linear networks where system parameters remain constant regardless of voltage or current levels."
     },
     {
       "id": 9,
@@ -106,7 +106,7 @@
         "D) None of the above"
       ],
       "answer": "C",
-      "explanation": "To apply superposition, each independent source is activated one at a time while all other independent sources are deactivated (shorted or opened), considering each source independently."
+      "explanation": "Each independent source is evaluated independently while all other independent sources are deactivated (voltage sources short-circuited, current sources open-circuited)."
     },
     {
       "id": 10,
@@ -118,7 +118,7 @@
         "D) Faraday's law"
       ],
       "answer": "C",
-      "explanation": "The linearity of circuit elements (such as resistors obeying Ohm's Law, V = IR) forms the underlying foundation for the superposition theorem."
+      "explanation": "Linearity in electrical circuits is governed by linear element relationships such as Ohm's Law (V = IR), which forms the core assumption required for superposition."
     },
     {
       "id": 11,
@@ -130,7 +130,7 @@
         "D) The circuit must be in series configuration"
       ],
       "answer": "A",
-      "explanation": "Linearity is an indispensable requirement for the superposition theorem to hold true."
+      "explanation": "Linearity is the absolute requirement for applying the superposition theorem."
     },
     {
       "id": 12,
@@ -142,7 +142,7 @@
         "D) Each source is turned on in pairs, with all other sources turned off"
       ],
       "answer": "A",
-      "explanation": "Independent voltage sources are replaced by short circuits (0 V) and independent current sources by open circuits (0 A) so that each source acts alone one at a time."
+      "explanation": "To apply superposition, analyze the circuit considering one independent source active at a time while turning off all other independent sources."
     },
     {
       "id": 13,
@@ -154,7 +154,7 @@
         "D) It simplifies the circuit and reduces the number of components"
       ],
       "answer": "A",
-      "explanation": "By evaluating single-source circuits, mathematical equations become far simpler, allowing for a quick and easy analysis for circuits with few sources."
+      "explanation": "It breaks down complex multi-source problems into simpler single-source circuit problems that are easier to calculate."
     },
     {
       "id": 14,
@@ -166,7 +166,7 @@
         "D) It is not applicable to non-linear circuits"
       ],
       "answer": "D",
-      "explanation": "Superposition cannot be applied to non-linear circuits or non-linear parameters like power dissipated (P = I^2 R or V^2 / R)."
+      "explanation": "Superposition cannot be applied to non-linear components or non-linear parameters like power calculations (P = I^2 R is non-linear)."
     },
     {
       "id": 15,
@@ -178,142 +178,369 @@
         "D) The resistance of each component is calculated"
       ],
       "answer": "A",
-      "explanation": "The ultimate result of the superposition process is determining the total algebraic sum of voltages and currents throughout the circuit."
+      "explanation": "Superposition determines the overall net voltage and current in circuit branches by summing individual contributions from each source."
     },
     {
       "id": 16,
-      "question": "What is the advantage of using the Thevenin equivalent circuit?",
+      "question": "Which of the following is a step in applying the superposition theorem to a circuit?",
       "options": [
-        "A) It simplifies complex circuits into simpler, equivalent circuits.",
-        "B) It allows the voltage and current across the load to be easily determined.",
-        "C) It is useful for designing circuits that are optimized for a specific load.",
-        "D) All of above"
+        "A) Calculate the total resistance of the circuit",
+        "B) Calculate the voltage and current of each source individually",
+        "C) Add the voltage and current of each source together",
+        "D) Replace each source with a resistor of equivalent value"
       ],
-      "answer": "D",
-      "explanation": "Thevenin's theorem reduces complex linear networks to a single voltage source in series with a resistor. This simplifies analysis, enables straightforward calculation of load voltage and current, and facilitates circuit design for specific loads."
+      "answer": "B",
+      "explanation": "Applying the superposition theorem requires deactivating all independent sources except one at a time and calculating the circuit responses (voltage and current) due to each individual source separately."
     },
     {
       "id": 17,
-      "question": "Can Thevenin's theorem be used for non-linear circuits?",
+      "question": "What is the formula for calculating the voltage across a component in a circuit using the superposition theorem?",
       "options": [
-        "A) No, it only applies to linear circuits.",
-        "B) Yes, it can be applied to both linear and non-linear circuits.",
-        "C) It only applies to circuits with voltage sources and resistors.",
-        "D) It only applies to circuits with current sources."
+        "A) V = IR",
+        "B) V = I/R",
+        "C) V = \u2211(V1 + V2 + ... + Vn)",
+        "D) V = \u2211(I1 + I2 + ... + In)"
       ],
-      "answer": "A",
-      "explanation": "Thevenin's theorem is based on the principle of linear superposition and is strictly limited to linear time-invariant circuits."
+      "answer": "C",
+      "explanation": "By the superposition theorem, the total voltage across any component in a linear circuit containing multiple independent sources is the algebraic sum of the individual voltages (V = V1 + V2 + ... + Vn) caused by each source acting alone."
     },
     {
       "id": 18,
-      "question": "What is the purpose of the Thevenin equivalent circuit?",
+      "question": "Superposition theorem is applicable to which type of circuits?",
       "options": [
-        "A) To calculate the voltage and current across a load circuit.",
-        "B) To determine the power delivered to a load circuit.",
-        "C) To simplify complex circuits into simpler, equivalent circuits.",
-        "D) All of above"
+        "A) Linear circuits only",
+        "B) Non-linear circuits only",
+        "C) Both linear and non-linear circuits",
+        "D) Passive circuits only"
       ],
-      "answer": "D",
-      "explanation": "The primary objective of creating a Thevenin equivalent circuit is to simplify complex networks, which directly makes calculating load voltage, current, and power transfer significantly easier."
+      "answer": "A",
+      "explanation": "The superposition theorem relies on the principle of linearity (homogeneity and additivity), making it applicable strictly to linear circuits."
     },
     {
       "id": 19,
-      "question": "What is Thevenin's theorem used for in electrical engineering?",
+      "question": "Superposition theorem states that in a linear circuit with multiple sources, the total response is equal to:",
       "options": [
-        "A) To simplify complex circuits",
-        "B) To increase the resistance of a circuit",
-        "C) To reduce the voltage of a circuit",
-        "D) To add more components to a circuit"
+        "A) The sum of all individual responses",
+        "B) The average of all individual responses",
+        "C) The product of all individual responses",
+        "D) None of the above"
       ],
       "answer": "A",
-      "explanation": "In electrical engineering, Thevenin's theorem is primarily used to reduce complex multi-component network models into a simple two-terminal equivalent system."
+      "explanation": "The superposition theorem states that the overall response (current or voltage) in a linear circuit driven by multiple independent sources is equal to the algebraic sum of the responses caused by each source individually."
     },
     {
       "id": 20,
-      "question": "What is the Thevenin equivalent circuit?",
+      "question": "In superposition theorem, which of the following needs to be kept constant while analyzing each individual source?",
       "options": [
-        "A) A circuit consisting of a single voltage source and a single resistor",
-        "B) A circuit consisting of multiple voltage sources and resistors",
-        "C) A circuit consisting of a single voltage source and multiple resistors",
-        "D) A circuit consisting of multiple voltage sources and a single resistor"
+        "A) Voltage",
+        "B) Current",
+        "C) Resistance",
+        "D) All of the above"
       ],
-      "answer": "A",
-      "explanation": "By definition, a Thevenin equivalent circuit consists of a single ideal voltage source (Vth) connected in series with a single equivalent resistor (Rth)."
+      "answer": "C",
+      "explanation": "When evaluating the response due to one active source, all circuit element values such as resistance (and passive impedances) must remain constant."
     },
     {
       "id": 21,
-      "question": "What is the first step in determining the Thevenin equivalent circuit?",
+      "question": "Superposition theorem is used to calculate which of the following in a circuit?",
       "options": [
-        "A) Identify the load circuit that is connected to the circuit of interest",
-        "B) Determine the open-circuit voltage across the terminals where the load was connected",
-        "C) Determine the internal resistance of the circuit between those terminals",
-        "D) Remove the load circuit from the circuit of interest"
+        "A) Voltage",
+        "B) Current",
+        "C) Power",
+        "D) All of the above"
       ],
       "answer": "A",
-      "explanation": "The standard procedural first step is to clearly identify the portion of the system acting as the load connected to the rest of the circuit."
+      "explanation": "Superposition applies directly to linear variables such as voltage and current. It cannot be directly applied to calculate power because power is non-linear ($P = I^2 R$ or $V^2/R$)."
     },
     {
       "id": 22,
-      "question": "What is the second step in determining the Thevenin equivalent circuit?",
+      "question": "In a circuit with two voltage sources, how many separate analyses are required using the superposition theorem?",
       "options": [
-        "A) Identify the load circuit that is connected to the circuit of interest",
-        "B) Determine the open-circuit voltage across the terminals where the load was connected",
-        "C) Determine the internal resistance of the circuit between those terminals",
-        "D) Remove the load circuit from the circuit of interest"
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 4"
       ],
-      "answer": "D",
-      "explanation": "Once the load circuit is identified, the second step is to disconnect/remove it from the terminals of interest to leave an open circuit."
+      "answer": "B",
+      "explanation": "The number of sub-analyses required under the superposition theorem equals the number of independent sources present in the circuit. For two sources, exactly two separate analyses are required."
     },
     {
       "id": 23,
-      "question": "What is the third step in determining the Thevenin equivalent circuit?",
+      "question": "The superposition theorem is not applicable to circuits with which of the following components?",
       "options": [
-        "A) Identify the load circuit that is connected to the circuit of interest",
-        "B) Determine the open-circuit voltage across the terminals where the load was connected",
-        "C) Determine the internal resistance of the circuit between those terminals",
-        "D) Remove the load circuit from the circuit of interest"
+        "A) Resistors",
+        "B) Capacitors",
+        "C) Inductors",
+        "D) Diodes"
       ],
-      "answer": "B",
-      "explanation": "After removing the load, the third step is to compute or measure the open-circuit voltage (Voc = Vth) across the open terminals."
+      "answer": "D",
+      "explanation": "Diodes are non-linear semiconductor devices, violating the linearity requirement necessary for applying the superposition theorem."
     },
     {
       "id": 24,
-      "question": "What is the fourth step in determining the Thevenin equivalent circuit?",
+      "question": "What is the Thevenin equivalent circuit?",
       "options": [
-        "A) Identify the load circuit that is connected to the circuit of interest",
-        "B) Determine the open-circuit voltage across the terminals where the load was connected",
-        "C) Determine the internal resistance of the circuit between those terminals",
-        "D) Remove the load circuit from the circuit of interest"
+        "A) A circuit consisting of a single voltage source and a single resistor.",
+        "B) A circuit consisting of a single current source and a single resistor.",
+        "C) A circuit consisting of multiple voltage sources and resistors."
       ],
-      "answer": "C",
-      "explanation": "The fourth step is to determine the equivalent internal resistance (Rth) looking back into the open terminals with independent sources turned off."
+      "answer": "A",
+      "explanation": "Thevenin's theorem states that any linear two-terminal bilateral network can be replaced by an equivalent circuit consisting of a single ideal voltage source ($V_{th}$) in series with a single resistance ($R_{th}$)."
     },
     {
       "id": 25,
-      "question": "Can Thevenin's theorem be used for non-linear circuits?",
+      "question": "What is the purpose of Thevenin's theorem?",
       "options": [
-        "A) No, it can only be used for linear circuits",
-        "B) Yes, it can be used for both linear and non-linear circuits",
-        "C) Yes, but only for circuits with a single non-linear element",
-        "D) It depends on the complexity of the circuit"
+        "A) To simplify complex circuits into simpler, equivalent circuits.",
+        "B) To measure voltage and current in a circuit.",
+        "C) To determine the power dissipated in a circuit.",
+        "D) All of the above"
       ],
       "answer": "A",
-      "explanation": "Thevenin's theorem requires linearity (homogeneity and additivity) across all components, so it cannot be directly applied to non-linear networks."
+      "explanation": "The fundamental purpose of Thevenin's theorem is to simplify complex linear networks connected to a load into a simple single-source, single-resistor equivalent circuit to facilitate easy analysis."
     },
     {
       "id": 26,
-      "question": "What is the advantage of using Thevenin's theorem to simplify a circuit?",
+      "question": "What is the first step in determining the Thevenin equivalent circuit?",
       "options": [
-        "A) It reduces the number of components that need to be analyzed",
-        "B) It increases the voltage of the circuit",
-        "C) It decreases the resistance of the circuit",
-        "D) It adds more components to the circuit"
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
       ],
       "answer": "A",
-      "explanation": "Simplifying a circuit using Thevenin's theorem significantly reduces the total number of components that must be calculated when evaluating responses under changing loads."
+      "explanation": "The first step in finding the Thevenin equivalent circuit is identifying and removing (disconnecting) the load component/circuit from the terminals of interest."
     },
     {
       "id": 27,
+      "question": "What is the second step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "After removing the load, the second step is calculating the open-circuit voltage ($V_{th}$) across the open terminals."
+    },
+    {
+      "id": 28,
+      "question": "What is the third step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "C",
+      "explanation": "The third step is calculating the equivalent internal resistance ($R_{th}$) looking into the open terminals with all independent sources deactivated (voltage sources shorted, current sources opened)."
+    },
+    {
+      "id": 29,
+      "question": "What is the fourth step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "D",
+      "explanation": "Steps A, B, and C correspond to steps 1, 2, and 3 respectively. The fourth step involves constructing the equivalent schematic with $V_{th}$ and $R_{th}$ connected in series to the load, which is not listed in options A-C."
+    },
+    {
+      "id": 30,
+      "question": "What is the final step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Draw the Thevenin equivalent circuit with the voltage source Vth and the resistor Rth.",
+        "B) Draw the Thevenin equivalent circuit with multiple voltage sources and resistors.",
+        "C) Determine the power delivered to the load circuit.",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "The final step is drawing the simplified equivalent circuit consisting of the calculated voltage source $V_{th}$ in series with resistance $R_{th}$ connected back across the load terminals."
+    },
+    {
+      "id": 31,
+      "question": "Which of the following is a step in applying the superposition theorem to a circuit?",
+      "options": [
+        "A) Calculate the total resistance of the circuit",
+        "B) Calculate the voltage and current of each source individually",
+        "C) Add the voltage and current of each source together",
+        "D) Replace each source with a resistor of equivalent value"
+      ],
+      "answer": "B",
+      "explanation": "When applying the superposition theorem, each independent source is evaluated individually while all other independent sources are deactivated (voltage sources shorted, current sources opened)."
+    },
+    {
+      "id": 32,
+      "question": "What is the formula for calculating the voltage across a component in a circuit using the superposition theorem?",
+      "options": [
+        "A) V = IR",
+        "B) V = I/R",
+        "C) V = \u2211(V1 + V2 + ... + Vn)",
+        "D) V = \u2211(I1 + I2 + ... + In)"
+      ],
+      "answer": "C",
+      "explanation": "According to the superposition theorem, the total voltage across any component is the algebraic sum of individual voltages produced by each source acting independently: V = V1 + V2 + ... + Vn."
+    },
+    {
+      "id": 33,
+      "question": "Superposition theorem is applicable to which type of circuits?",
+      "options": [
+        "A) Linear circuits only",
+        "B) Non-linear circuits only",
+        "C) Both linear and non-linear circuits",
+        "D) Passive circuits only"
+      ],
+      "answer": "A",
+      "explanation": "The superposition theorem is derived from the principle of linearity (homogeneity and additivity) and can only be applied to linear circuits."
+    },
+    {
+      "id": 34,
+      "question": "Superposition theorem states that in a linear circuit with multiple sources, the total response is equal to:",
+      "options": [
+        "A) The sum of all individual responses",
+        "B) The average of all individual responses",
+        "C) The product of all individual responses",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "The superposition theorem states that in any linear bilateral network containing multiple sources, the net response (voltage or current) is equal to the algebraic sum of the individual responses produced by each source operating alone."
+    },
+    {
+      "id": 35,
+      "question": "In superposition theorem, which of the following needs to be kept constant while analyzing each individual source?",
+      "options": [
+        "A) Voltage",
+        "B) Current",
+        "C) Resistance",
+        "D) All of the above"
+      ],
+      "answer": "C",
+      "explanation": "Passive component characteristics such as resistance must remain constant and invariant to maintain the circuit's linear properties during individual source analysis."
+    },
+    {
+      "id": 36,
+      "question": "Superposition theorem is used to calculate which of the following in a circuit?",
+      "options": [
+        "A) Voltage",
+        "B) Current",
+        "C) Power",
+        "D) All of the above"
+      ],
+      "answer": "A",
+      "explanation": "Superposition applies only to linear responses such as voltage and current. It cannot be used directly to calculate power because power is a non-linear quantity proportional to the square of voltage or current (P = I^2 * R)."
+    },
+    {
+      "id": 37,
+      "question": "In a circuit with two voltage sources, how many separate analyses are required using the superposition theorem?",
+      "options": [
+        "A) 1",
+        "B) 2",
+        "C) 3",
+        "D) 4"
+      ],
+      "answer": "B",
+      "explanation": "The superposition theorem requires analyzing the circuit once for every independent source present. Thus, two independent voltage sources require exactly two individual sub-circuit analyses."
+    },
+    {
+      "id": 38,
+      "question": "The superposition theorem is not applicable to circuits with which of the following components?",
+      "options": [
+        "A) Resistors",
+        "B) Capacitors",
+        "C) Inductors",
+        "D) Diodes"
+      ],
+      "answer": "D",
+      "explanation": "Diodes are non-linear elements (their V-I characteristics are exponential). Superposition cannot be applied to circuits containing non-linear devices like diodes."
+    },
+    {
+      "id": 39,
+      "question": "What is the Thevenin equivalent circuit?",
+      "options": [
+        "A) A circuit consisting of a single voltage source and a single resistor.",
+        "B) A circuit consisting of a single current source and a single resistor.",
+        "C) A circuit consisting of multiple voltage sources and resistors.",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "Thevenin's theorem reduces any complex linear two-terminal circuit into a simple equivalent circuit comprising a single open-circuit voltage source (Vth) connected in series with an equivalent resistance (Rth)."
+    },
+    {
+      "id": 40,
+      "question": "What is the purpose of Thevenin's theorem?",
+      "options": [
+        "A) To simplify complex circuits into simpler, equivalent circuits.",
+        "B) To measure voltage and current in a circuit.",
+        "C) To determine the power dissipated in a circuit.",
+        "D) All of the above"
+      ],
+      "answer": "A",
+      "explanation": "The principal purpose of Thevenin's theorem is circuit reduction\u2014simplifying complex linear networks to facilitate easier analysis of variable load components connected across specific terminals."
+    },
+    {
+      "id": 41,
+      "question": "What is the first step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "The initial step in finding the Thevenin equivalent circuit is identifying and isolating (removing) the load component/circuit from the terminals of interest."
+    },
+    {
+      "id": 42,
+      "question": "What is the second step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "B",
+      "explanation": "After removing the load, the second step is calculating the open-circuit voltage (Vth) across the open load terminals."
+    },
+    {
+      "id": 43,
+      "question": "What is the third step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "C",
+      "explanation": "The third step involves finding the equivalent resistance (Rth) across the open load terminals with all independent sources turned off (shorting voltage sources and opening current sources)."
+    },
+    {
+      "id": 44,
+      "question": "What is the fourth step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Identify the load circuit that is connected to the circuit of interest.",
+        "B) Determine the open-circuit voltage Vth across the terminals where the load was connected.",
+        "C) Determine the internal resistance Rth of the circuit between those terminals.",
+        "D) None of the above"
+      ],
+      "answer": "D",
+      "explanation": "Steps 1, 2, and 3 cover isolating the load, finding Vth, and finding Rth. The fourth step consists of drawing the simplified circuit with Vth in series with Rth, which is not listed in options A, B, or C."
+    },
+    {
+      "id": 45,
+      "question": "What is the final step in determining the Thevenin equivalent circuit?",
+      "options": [
+        "A) Draw the Thevenin equivalent circuit with the voltage source Vth and the resistor Rth.",
+        "B) Draw the Thevenin equivalent circuit with multiple voltage sources and resistors.",
+        "C) Determine the power delivered to the load circuit.",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "The final step is drawing the schematic representation of the single voltage source Vth connected in series with the resistor Rth along with the reconnected load terminals."
+    },
+    {
+      "id": 46,
       "question": "What is the difference between a Thevenin equivalent circuit and a Norton equivalent circuit?",
       "options": [
         "A) A Thevenin equivalent circuit uses a voltage source and a resistor, while a Norton equivalent circuit uses a current source and a resistor.",
@@ -322,10 +549,10 @@
         "D) The choice between a Thevenin and Norton equivalent circuit depends on the type of circuit being analyzed."
       ],
       "answer": "A",
-      "explanation": "A Thevenin equivalent circuit consists of an equivalent voltage source in series with a resistor, whereas a Norton equivalent circuit consists of an equivalent current source in parallel with a resistor."
+      "explanation": "A Thevenin equivalent consists of an ideal voltage source in series with an equivalent resistor, whereas a Norton equivalent consists of an ideal current source in parallel with an equivalent resistor."
     },
     {
-      "id": 28,
+      "id": 47,
       "question": "What is the primary use of the Thevenin equivalent circuit in circuit design?",
       "options": [
         "A) To optimize circuits for a specific load",
@@ -334,10 +561,10 @@
         "D) To add more components to a circuit"
       ],
       "answer": "A",
-      "explanation": "Thevenin equivalent circuits simplify complex networks connected to a variable or specific load, making it straightforward to analyze, optimize power transfer, and determine load behavior."
+      "explanation": "By reducing a complex active network to a simple two-terminal equivalent model, engineers can easily analyze behavior and optimize power transfer for various connected loads."
     },
     {
-      "id": 29,
+      "id": 48,
       "question": "What is Norton's theorem?",
       "options": [
         "A) A method to simplify complex circuits by using an equivalent voltage source and a series resistor.",
@@ -346,10 +573,10 @@
         "D) Both a and c"
       ],
       "answer": "B",
-      "explanation": "Norton's theorem states that any linear two-terminal circuit can be replaced by an equivalent circuit containing a current source (I_N) connected in parallel with a resistor (R_N)."
+      "explanation": "Norton's theorem states that any linear two-terminal circuit can be replaced by an equivalent circuit consisting of a current source IN in parallel with an equivalent resistor RN."
     },
     {
-      "id": 30,
+      "id": 49,
       "question": "What is the Norton equivalent current?",
       "options": [
         "A) The current that would flow if the output terminals of the circuit were open-circuited.",
@@ -358,10 +585,10 @@
         "D) None of above"
       ],
       "answer": "B",
-      "explanation": "The Norton equivalent current (I_N) is defined as the short-circuit current that flows between the output terminals when they are directly connected together."
+      "explanation": "The Norton current (IN) is defined as the short-circuit current flowing between the output terminals when they are directly connected together."
     },
     {
-      "id": 31,
+      "id": 50,
       "question": "What is the equivalent resistance seen from the output terminals in Norton's theorem?",
       "options": [
         "A) The resistance of the load resistor.",
@@ -370,10 +597,10 @@
         "D) None of above"
       ],
       "answer": "B",
-      "explanation": "The Norton equivalent resistance (R_N) is equal to the equivalent resistance seen looking into the output terminals with all independent sources replaced by their internal resistances (voltage sources shorted and current sources opened)."
+      "explanation": "The equivalent resistance RN is found looking into the open output terminals with all independent sources deactivated (voltage sources shorted/replaced by internal resistance, current sources opened)."
     },
     {
-      "id": 32,
+      "id": 51,
       "question": "Can Norton's theorem be used to analyze circuits with capacitors and inductors?",
       "options": [
         "A) Yes, as long as the circuit is linear.",
@@ -382,10 +609,10 @@
         "D) It depends on type of capacitor only"
       ],
       "answer": "A",
-      "explanation": "Norton's theorem applies to any linear electrical circuit operating under steady-state AC/DC conditions, replacing reactive elements (capacitors and inductors) with their complex impedances."
+      "explanation": "Norton's theorem applies to any linear network operating in steady-state AC using frequency-domain impedances containing inductors and capacitors."
     },
     {
-      "id": 33,
+      "id": 52,
       "question": "What is the purpose of the Norton equivalent circuit?",
       "options": [
         "A) To replace the original circuit with a simpler circuit.",
@@ -394,10 +621,10 @@
         "D) All of above"
       ],
       "answer": "A",
-      "explanation": "The main objective of Norton's equivalent circuit is to reduce a complex, multi-component linear network down to a simple two-component equivalent circuit connected across the load terminals."
+      "explanation": "The fundamental objective of Norton's theorem is to reduce a complex multi-source circuit into a simplified two-element parallel equivalent circuit connected across the load terminals."
     },
     {
-      "id": 34,
+      "id": 53,
       "question": "What is the advantage of using Norton's theorem?",
       "options": [
         "A) It can simplify complex circuits with multiple current and voltage sources.",
@@ -406,10 +633,10 @@
         "D) All of above"
       ],
       "answer": "D",
-      "explanation": "Norton's theorem simplifies multi-source networks, handles linear reactive circuits using impedances, and enables simple calculations for terminal voltage, current, and power delivered to the load."
+      "explanation": "Norton's theorem offers multiple advantages: simplifying multi-source linear networks, extending to AC impedance analysis, and facilitating efficient load power calculations."
     },
     {
-      "id": 35,
+      "id": 54,
       "question": "What is the limitation of Norton's theorem?",
       "options": [
         "A) It can only be used for circuits in steady-state conditions.",
@@ -418,10 +645,10 @@
         "D) Both a and b"
       ],
       "answer": "A",
-      "explanation": "Norton's theorem applies strictly to linear circuits in steady-state conditions. It cannot be directly applied during dynamic transients or to non-linear components without linearization."
+      "explanation": "Norton's theorem assumes linear, steady-state operating conditions and cannot directly represent dynamic transient responses without dynamic differential/Laplace formulations."
     },
     {
-      "id": 36,
+      "id": 55,
       "question": "Can Norton's theorem be used to analyze non-linear circuits?",
       "options": [
         "A) Yes, as long as the circuit is simple.",
@@ -430,10 +657,10 @@
         "D) It depends type of inductor present"
       ],
       "answer": "B",
-      "explanation": "Norton's theorem relies on the principle of superposition, which only holds true for linear circuits. Non-linear circuits violate linearity constraints and cannot be analyzed directly with Norton's theorem."
+      "explanation": "Superposition and Norton's theorem strictly rely on the principle of linearity; they do not apply directly to non-linear components such as diodes or transistors."
     },
     {
-      "id": 37,
+      "id": 56,
       "question": "How is the Norton equivalent circuit connected to the load resistor?",
       "options": [
         "A) In series.",
@@ -442,10 +669,10 @@
         "D) None of above"
       ],
       "answer": "B",
-      "explanation": "A Norton equivalent circuit consists of a current source and equivalent resistor in parallel, which are connected in parallel with the load resistor across the output terminals."
+      "explanation": "The Norton equivalent current source IN, the Norton equivalent resistance RN, and the external load resistance RL are all connected in parallel across the load terminals."
     },
     {
-      "id": 38,
+      "id": 57,
       "question": "What is the relationship between Norton's theorem and Thevenin's theorem?",
       "options": [
         "A) They are unrelated.",
@@ -454,10 +681,10 @@
         "D) Thevenin's theorem can be used in place for Norton's theorem but not viceversa"
       ],
       "answer": "C",
-      "explanation": "Norton's and Thevenin's theorems are duals of each other. They provide equivalent simplified representations of any linear two-terminal circuit and can be directly converted into one another using source transformation."
+      "explanation": "Norton's and Thevenin's theorems are duals of each other. A Thevenin equivalent circuit (voltage source in series with a resistor) can be directly transformed into a Norton equivalent circuit (current source in parallel with a resistor) using source transformation, making them equivalent and interchangeable."
     },
     {
-      "id": 39,
+      "id": 58,
       "question": "What is the Norton equivalent circuit of a linear circuit?",
       "options": [
         "A) A voltage source and a series resistor",
@@ -466,10 +693,10 @@
         "D) A current source and a parallel resistor"
       ],
       "answer": "D",
-      "explanation": "Norton's theorem states that any linear active two-terminal network can be replaced by an equivalent circuit consisting of a current source (In) in parallel with an equivalent resistor (Rn)."
+      "explanation": "Norton's theorem states that any linear two-terminal circuit can be replaced by an equivalent circuit consisting of an independent current source in parallel with an equivalent resistor."
     },
     {
-      "id": 40,
+      "id": 59,
       "question": "When using Norton's theorem, what must be disconnected from the circuit first?",
       "options": [
         "A) The voltage source",
@@ -478,10 +705,10 @@
         "D) The switch"
       ],
       "answer": "C",
-      "explanation": "The first step in applying Norton's (or Thevenin's) theorem is to identify and remove the load resistor from the output terminals across which the equivalent circuit is being evaluated."
+      "explanation": "To analyze a circuit using Norton's theorem, the load resistor connected across the output terminals must first be disconnected."
     },
     {
-      "id": 41,
+      "id": 60,
       "question": "How is the Norton equivalent current calculated?",
       "options": [
         "A) By open-circuiting the output terminals and finding the current",
@@ -490,10 +717,10 @@
         "D) By calculating the voltage across the output terminals and dividing by the resistance"
       ],
       "answer": "B",
-      "explanation": "The Norton equivalent current (In) is defined as the short-circuit current that flows through the output terminals when they are directly connected together (short-circuited)."
+      "explanation": "The Norton equivalent current (I_N) is defined as the short-circuit current that flows through the output terminals when they are shorted together."
     },
     {
-      "id": 42,
+      "id": 61,
       "question": "What is the equivalent resistance seen from the output terminals in Norton's theorem?",
       "options": [
         "A) The total resistance of the circuit",
@@ -502,10 +729,10 @@
         "D) The resistance seen from the output terminals with all voltage sources replaced by their internal resistances"
       ],
       "answer": "D",
-      "explanation": "The Norton equivalent resistance (Rn) is the resistance looking into the open output terminals with all independent voltage sources replaced by short circuits (their zero internal resistance) and independent current sources replaced by open circuits."
+      "explanation": "The Norton equivalent resistance (R_N) is equal to the resistance measured looking back into the output terminals with all independent voltage sources short-circuited and current sources open-circuited (replaced by their internal resistances)."
     },
     {
-      "id": 43,
+      "id": 62,
       "question": "What is the advantage of using Norton's theorem?",
       "options": [
         "A) It simplifies complex circuits",
@@ -514,10 +741,10 @@
         "D) It requires only one step to calculate the output"
       ],
       "answer": "A",
-      "explanation": "Norton's theorem simplifies a complex multi-element network into a simple two-element parallel circuit, making load current and voltage calculations for varying load values straightforward."
+      "explanation": "The primary advantage of Norton's theorem is that it simplifies complex multi-component linear networks into a simple two-element equivalent circuit."
     },
     {
-      "id": 44,
+      "id": 63,
       "question": "In Norton's theorem, what is the Norton equivalent current source dependent on?",
       "options": [
         "A) The load resistor",
@@ -526,10 +753,10 @@
         "D) The total resistance of the circuit"
       ],
       "answer": "C",
-      "explanation": "The Norton equivalent current source depends on the short-circuit current flowing through the output terminals of the internal network."
+      "explanation": "The Norton equivalent current source represents the short-circuit current flowing through the network terminals, which depends on the internal current distribution and independent sources of the active network."
     },
     {
-      "id": 45,
+      "id": 64,
       "question": "How many steps are involved in applying Norton's theorem?",
       "options": [
         "A) Two",
@@ -537,11 +764,11 @@
         "C) Four",
         "D) Five"
       ],
-      "answer": "C",
-      "explanation": "Standard application of Norton's theorem involves 4 basic steps: 1) Remove the load resistance, 2) Find the short-circuit current (In), 3) Find the equivalent resistance (Rn) with sources deactivated, and 4) Draw the Norton equivalent circuit with the load re-attached."
+      "answer": "B",
+      "explanation": "Applying Norton's theorem generally involves three core steps: 1) Remove the load resistor, 2) Find the short-circuit current (I_N), and 3) Find the equivalent resistance (R_N) looking into the load terminals."
     },
     {
-      "id": 46,
+      "id": 65,
       "question": "What is the main requirement for a circuit to be analyzed using Norton's theorem?",
       "options": [
         "A) It must be in steady-state conditions",
@@ -550,10 +777,10 @@
         "D) It must contain only resistors and current sources"
       ],
       "answer": "C",
-      "explanation": "Norton's theorem relies on the principle of superposition and source transformations, which strictly require the circuit elements to be linear (linear network)."
+      "explanation": "Norton's theorem is based on linearity principles (superposition and source transformation) and therefore applies only to linear circuits."
     },
     {
-      "id": 47,
+      "id": 66,
       "question": "What is the equivalent circuit obtained in Norton's theorem?",
       "options": [
         "A) A voltage source in series with a resistor",
@@ -562,10 +789,10 @@
         "D) A current source in parallel with a resistor"
       ],
       "answer": "D",
-      "explanation": "The Norton equivalent circuit consists of a current source (In) in parallel with an equivalent resistance (Rn)."
+      "explanation": "Norton's equivalent circuit consists of an independent current source connected in parallel with an equivalent resistance."
     },
     {
-      "id": 48,
+      "id": 67,
       "question": "What is the maximum power transfer theorem?",
       "options": [
         "A) It states that the power transferred from a source to a load is maximum when the load impedance is equal to the source impedance.",
@@ -574,10 +801,10 @@
         "D) None of the above."
       ],
       "answer": "A",
-      "explanation": "The maximum power transfer theorem states that maximum power is delivered to a load when the load impedance equals the internal source impedance (or complex conjugate of source impedance in AC)."
+      "explanation": "The Maximum Power Transfer Theorem states that maximum power is delivered from a source to a load when the load impedance equals the internal source impedance (or complex conjugate in AC)."
     },
     {
-      "id": 49,
+      "id": 68,
       "question": "What type of circuits does the maximum power transfer theorem apply to?",
       "options": [
         "A) Linear circuits only.",
@@ -586,10 +813,10 @@
         "D) None of the above."
       ],
       "answer": "A",
-      "explanation": "The maximum power transfer theorem is derived from linear network theory (Thevenin/Norton representations) and applies to linear bilateral networks."
+      "explanation": "The maximum power transfer theorem applies to linear circuits because it relies on modeling the system with a linear Thevenin or Norton equivalent network."
     },
     {
-      "id": 50,
+      "id": 69,
       "question": "What is the advantage of applying the maximum power transfer theorem in a circuit?",
       "options": [
         "A) It reduces the power loss in the circuit.",
@@ -598,10 +825,10 @@
         "D) None of the above."
       ],
       "answer": "D",
-      "explanation": "The main purpose/advantage of the maximum power transfer theorem is to maximize the absolute power delivered to a load (critical in communications and signal transfer), not to minimize power loss or maximize efficiency (efficiency is only 50% at maximum power transfer)."
+      "explanation": "The advantage of the maximum power transfer theorem is that it maximizes the actual power delivered to the load. It does not reduce overall power loss (at maximum power transfer, efficiency is 50%, so power loss inside the source equals power delivered to the load). Therefore, none of A, B, or C describe its purpose."
     },
     {
-      "id": 51,
+      "id": 70,
       "question": "How does the maximum power transfer theorem help in designing power systems?",
       "options": [
         "A) It helps to optimize the power transfer in the system.",
@@ -610,10 +837,10 @@
         "D) All of the above."
       ],
       "answer": "A",
-      "explanation": "The theorem helps optimize signal power transfer. Note that in utility power transmission systems, high efficiency rather than maximum power transfer is desired, but the theorem provides the mathematical limit for optimizing power output."
+      "explanation": "The theorem helps optimize the amount of power transferred across stages, which is essential in signal transmission and communications circuit design."
     },
     {
-      "id": 52,
+      "id": 71,
       "question": "What happens when the load impedance is not equal to the source impedance in a circuit?",
       "options": [
         "A) The power transfer is maximum.",
@@ -622,10 +849,10 @@
         "D) None of the above."
       ],
       "answer": "D",
-      "explanation": "When load impedance is not equal to source impedance, the power transferred to the load is simply less than the maximum possible power; it is neither zero nor guaranteed to be minimum."
+      "explanation": "When the load impedance differs from the source impedance, power transfer is less than maximum, but it is neither strictly minimum nor zero."
     },
     {
-      "id": 53,
+      "id": 72,
       "question": "Is the maximum power transfer theorem applicable to AC circuits?",
       "options": [
         "A) Yes, it is applicable to AC circuits.",
@@ -634,10 +861,10 @@
         "D) None of the above."
       ],
       "answer": "A",
-      "explanation": "Yes, it applies to AC circuits where maximum power transfer occurs when the load impedance ZL is equal to the complex conjugate of the source impedance Zs*."
+      "explanation": "The theorem applies to both DC and AC circuits. In AC circuits, maximum power is transferred when the load impedance is the complex conjugate of the source impedance."
     },
     {
-      "id": 54,
+      "id": 73,
       "question": "What is the formula for calculating the maximum power transfer in a circuit?",
       "options": [
         "A) P = V^2/R",
@@ -646,10 +873,10 @@
         "D) P = V^2/R+L"
       ],
       "answer": "B",
-      "explanation": "According to the provided answer key, option B (P = I^2R) is designated as the correct answer for general power calculation."
+      "explanation": "Power delivered to the load resistor can be expressed in terms of current as P = I^2 * R. Under maximum power transfer conditions, power delivered to the matched load is calculated using this fundamental relationship."
     },
     {
-      "id": 55,
+      "id": 74,
       "question": "Can the maximum power transfer occur at multiple values of load impedance?",
       "options": [
         "A) Yes, it can occur at multiple values of load impedance.",
@@ -658,10 +885,10 @@
         "D) None of the above."
       ],
       "answer": "B",
-      "explanation": "Maximum power transfer occurs uniquely at a single condition where the load impedance matches the internal source impedance (or its complex conjugate)."
+      "explanation": "Maximum power transfer occurs at a single unique condition where the load impedance equals the complex conjugate of the internal source impedance."
     },
     {
-      "id": 56,
+      "id": 75,
       "question": "What is the condition for maximum power transfer in a circuit?",
       "options": [
         "A) The load impedance must be equal to the source impedance.",
@@ -670,10 +897,10 @@
         "D) None of the above."
       ],
       "answer": "A",
-      "explanation": "The Maximum Power Transfer Theorem dictates that maximum power is delivered from a source to a load when the load impedance equals the source impedance."
+      "explanation": "The maximum power transfer theorem states that maximum power is transferred from source to load when the load impedance equals the source impedance."
     },
     {
-      "id": 57,
+      "id": 76,
       "question": "What is the maximum efficiency that can be achieved in a circuit using the maximum power transfer theorem?",
       "options": [
         "A) 100%",
@@ -682,10 +909,10 @@
         "D) It depends on the circuit."
       ],
       "answer": "D",
-      "explanation": "While the efficiency under the condition of maximum power transfer (R_L = R_s) is 50%, maximum efficiency achievable overall depends on the circuit parameters and whether source impedance can be altered."
+      "explanation": "While efficiency at maximum power transfer in a simple resistive network is 50%, overall efficiency considerations depend on specific circuit configurations and parameters."
     },
     {
-      "id": 58,
+      "id": 77,
       "question": "What is the maximum power transfer theorem?",
       "options": [
         "A) The theorem that states that the power transfer is maximum when the load impedance is equal to the source impedance.",
@@ -694,10 +921,10 @@
         "D) None of above"
       ],
       "answer": "A",
-      "explanation": "The theorem states that to deliver maximum power from a source with internal resistance to a load, the load resistance must equal the source resistance."
+      "explanation": "By definition, the maximum power transfer theorem establishes that maximum power output occurs when the load impedance matches the internal source impedance."
     },
     {
-      "id": 59,
+      "id": 78,
       "question": "The maximum power transfer theorem is applicable to:",
       "options": [
         "A) Linear circuits only.",
@@ -706,10 +933,10 @@
         "D) All of above"
       ],
       "answer": "A",
-      "explanation": "The Maximum Power Transfer Theorem relies on linear network equivalencies (Thevenin/Norton theorems) and therefore applies strictly to linear networks."
+      "explanation": "The maximum power transfer theorem relies on linear circuit equivalence principles (Thevenin/Norton theorems) and is strictly applicable to linear circuits."
     },
     {
-      "id": 60,
+      "id": 79,
       "question": "The maximum power transfer occurs when:",
       "options": [
         "A) The load impedance is zero.",
@@ -718,22 +945,22 @@
         "D) When load impedance is double of source impedance"
       ],
       "answer": "B",
-      "explanation": "Maximum power transfer takes place when load impedance matched the source impedance."
+      "explanation": "Matching the load impedance to the internal source impedance produces the optimal current-voltage product at the load for maximum power."
     },
     {
-      "id": 61,
+      "id": 80,
       "question": "What is the formula for calculating the maximum power transfer?",
       "options": [
-        "A) Pmax = V^2 / 8R",
-        "B) Pmax = V^2 / 2R",
-        "C) Pmax = V^2 / 4R",
-        "D) Pmax = V^2 / (2R)"
+        "A) Pmax = V^2/8R",
+        "B) Pmax = V^2/2R",
+        "C) Pmax = V^2/4R",
+        "D) Pmax = V^2/(2R)"
       ],
       "answer": "C",
-      "explanation": "For a circuit with Thevenin voltage V and equivalent resistance R, the maximum power transferred to a matched load is Pmax = V^2 / (4R)."
+      "explanation": "When R_L = R_th, maximum power transferred is given by Pmax = V_th^2 / (4 * R_th)."
     },
     {
-      "id": 62,
+      "id": 81,
       "question": "In which applications is the maximum power transfer theorem useful?",
       "options": [
         "A) Audio",
@@ -742,10 +969,10 @@
         "D) All of the above"
       ],
       "answer": "D",
-      "explanation": "Impedance matching principles derived from the maximum power transfer theorem are broadly applied across audio equipment, electronic power supply designs, and signal transmission systems."
+      "explanation": "Impedance matching principles derived from the maximum power transfer theorem are applied in audio engineering, RF communications, power supply design, and transmission networks."
     },
     {
-      "id": 63,
+      "id": 82,
       "question": "What happens when the load impedance is much larger than the source impedance?",
       "options": [
         "A) The power transfer is maximum",
@@ -754,10 +981,10 @@
         "D) None of above"
       ],
       "answer": "B",
-      "explanation": "When load impedance is significantly higher than source impedance, total current drops drastically, reducing the power transferred to the load to near minimum."
+      "explanation": "When load impedance is significantly higher than source impedance, circuit current approaches zero, causing the power delivered to the load to drop toward minimum."
     },
     {
-      "id": 64,
+      "id": 83,
       "question": "The maximum power transfer theorem helps to:",
       "options": [
         "A) Minimize the amount of energy lost in transmission.",
@@ -766,10 +993,10 @@
         "D) Helps to distribute energy evenly in transmission."
       ],
       "answer": "A",
-      "explanation": "Impedance matching helps prevent signal reflection and losses, thus minimizing wasted energy in transmission networks."
+      "explanation": "Optimizing impedance matching helps ensure maximum available power reaches the load, minimizing unwanted signal attenuation and relative transmission loss."
     },
     {
-      "id": 65,
+      "id": 84,
       "question": "The maximum power transfer theorem is useful in designing and optimizing:",
       "options": [
         "A) Power systems",
@@ -778,7 +1005,7 @@
         "D) Both a and c"
       ],
       "answer": "A",
-      "explanation": "As per the answer key, option A (Power systems) is listed as the designated answer."
+      "explanation": "The maximum power transfer principles are utilized in power systems and electronic circuit design to optimize signal strength and system capacity."
     }
   ]
 }
