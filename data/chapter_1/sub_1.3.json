@@ -10,7 +10,7 @@
         "D) Kirchhoff's law"
       ],
       "answer": "A",
-      "explanation": "Alternating voltages and currents are generated based on Faraday's law of electromagnetic induction, which states that an electromotive force (EMF) is induced when there is relative motion between a conductor and a magnetic field."
+      "explanation": "Alternating voltages and currents are generated based on Faraday's law of electromagnetic induction, which states that an electromotive force (EMF) is induced in a conductor when it experiences a changing magnetic flux."
     },
     {
       "id": 2,
@@ -22,7 +22,7 @@
         "D) None of the above"
       ],
       "answer": "B",
-      "explanation": "In modern AC generators or alternators, a rotating magnetic field (rotor) and a stationary armature coil (stator) are primarily used to efficiently generate AC without passing high current through slip rings."
+      "explanation": "In modern AC generators (alternators), a rotating magnet (rotor) inside a stationary armature coil (stator) is preferred because it eliminates the need for high-current slip rings and brushes."
     },
     {
       "id": 3,
@@ -34,7 +34,7 @@
         "D) i(t) = Im sin(\u03c9t + \u03a6)"
       ],
       "answer": "B",
-      "explanation": "The standard mathematical representation for an alternating voltage sine wave as a function of time t is v(t) = Vm sin(\u03c9t + \u03a6), where Vm is peak amplitude, \u03c9 is angular frequency, and \u03a6 is phase angle."
+      "explanation": "The standard general equation representing a sinusoidal voltage wave as a function of time is v(t) = Vm sin(\u03c9t + \u03a6), where Vm is peak amplitude, \u03c9 is angular frequency, and \u03a6 is phase angle."
     },
     {
       "id": 4,
@@ -46,7 +46,7 @@
         "D) Wavelength"
       ],
       "answer": "B",
-      "explanation": "The maximum positive or negative value attained by an alternating quantity during one complete cycle is defined as its amplitude or peak value."
+      "explanation": "The maximum or peak magnitude reached by an alternating quantity during a cycle is defined as its amplitude."
     },
     {
       "id": 5,
@@ -58,7 +58,7 @@
         "D) None of the above"
       ],
       "answer": "A",
-      "explanation": "Frequency is the measure of how many complete cycles an alternating waveform completes within one second, expressed in Hertz (Hz)."
+      "explanation": "Frequency (f) is defined as the number of complete cycles executed by an alternating waveform per second, measured in Hertz (Hz)."
     },
     {
       "id": 6,
@@ -70,7 +70,7 @@
         "D) None of the above"
       ],
       "answer": "C",
-      "explanation": "The phase angle represents the fraction of a cycle elapsed relative to a reference origin or reference waveform."
+      "explanation": "The phase angle (\u03a6) measures the angular offset or time shift of a sinusoidal waveform relative to a reference point or reference waveform."
     },
     {
       "id": 7,
@@ -82,7 +82,7 @@
         "D) i(t) = Im sin(\u03c9t + \u03a6)"
       ],
       "answer": "A",
-      "explanation": "The equation v(t) = Vm cos(\u03c9t + \u03a6) explicitly describes a voltage cosine waveform."
+      "explanation": "A cosine wave for voltage is explicitly expressed using the cosine mathematical function: v(t) = Vm cos(\u03c9t + \u03a6)."
     },
     {
       "id": 8,
@@ -94,22 +94,214 @@
         "D) The rate at which the waveform is changing direction"
       ],
       "answer": "D",
-      "explanation": "Angular frequency (\u03c9 = 2\u03c0f) expresses the rotational rate of the phasor in radians per second, describing the rate at which the waveform continuously changes angle and direction."
+      "explanation": "Angular frequency (\u03c9 = 2\u03c0f) specifies the rate of change of the phase angle in radians per second, representing how fast the waveform rotates/changes direction."
     },
     {
       "id": 9,
-      "question": "What is the relationship between the peak value and RMS value of an AC signal?",
+      "question": "What is the waveform of an alternating voltage or current characterized by?",
       "options": [
-        "A) Vpeak = Vrms",
-        "B) Vpeak = Vrms/\u221a2",
-        "C) Vpeak = Vrms*\u221a2",
+        "A) Amplitude, frequency, and phase",
+        "B) Resistance, capacitance, and inductance",
+        "C) Voltage, current, and power",
         "D) None of the above"
       ],
-      "answer": "C",
-      "explanation": "For a sinusoidal AC signal, the peak voltage Vpeak is equal to the RMS voltage Vrms multiplied by \u221a2 (Vpeak = Vrms * \u221a2)."
+      "answer": "A",
+      "explanation": "A sinusoidal alternating voltage or current signal is fully defined by three key parameters: amplitude (peak magnitude), frequency (cycles per second), and phase angle (relative displacement)."
     },
     {
       "id": 10,
+      "question": "Which of the following is the basic principle behind the generation of alternating voltages and currents?",
+      "options": [
+        "A) Coulomb's law",
+        "B) Ohm's law",
+        "C) Kirchhoff's law",
+        "D) Electromagnetic induction"
+      ],
+      "answer": "D",
+      "explanation": "Electromagnetic induction, discovered by Michael Faraday, is the physical phenomenon where an electromotive force (EMF) is induced across an electrical conductor in a changing magnetic field, forming the basis for AC generation."
+    },
+    {
+      "id": 11,
+      "question": "What is the principle behind the generation of alternating voltages and currents?",
+      "options": [
+        "A) Ohm's law",
+        "B) Faraday's law of electromagnetic induction",
+        "C) Kirchhoff's law",
+        "D) Ampere's law"
+      ],
+      "answer": "B",
+      "explanation": "Faraday's law of electromagnetic induction states that the magnitude of induced electromotive force (EMF) is proportional to the rate of change of magnetic flux linkage."
+    },
+    {
+      "id": 12,
+      "question": "Which of the following components is responsible for creating a rotating magnetic field in an AC generator?",
+      "options": [
+        "A) Rotor",
+        "B) Stator",
+        "C) Commutator",
+        "D) Armature"
+      ],
+      "answer": "A",
+      "explanation": "In a standard synchronous AC generator, field excitation is supplied to the rotor windings, which rotate mechanically to establish a rotating magnetic field."
+    },
+    {
+      "id": 13,
+      "question": "Which of the following equations represents a sine wave?",
+      "options": [
+        "A) v(t) = Vm cos(\u03c9t + \u03a6)",
+        "B) v(t) = Vm sin(\u03c9t + \u03a6)",
+        "C) i(t) = Im cos(\u03c9t + \u03a6)",
+        "D) i(t) = Im sin(\u03c9t + \u03a6)"
+      ],
+      "answer": "B",
+      "explanation": "The standard expression for a sinusoidal voltage waveform as a function of time is v(t) = Vm sin(\u03c9t + \u03a6), where Vm is peak voltage, \u03c9 is angular frequency, and \u03a6 is phase angle."
+    },
+    {
+      "id": 14,
+      "question": "What is the maximum value of an alternating voltage or current called?",
+      "options": [
+        "A) Amplitude",
+        "B) Frequency",
+        "C) Phase",
+        "D) Waveform"
+      ],
+      "answer": "A",
+      "explanation": "The amplitude (or peak value) refers to the maximum absolute value achieved by an AC voltage or current signal during a complete cycle."
+    },
+    {
+      "id": 15,
+      "question": "What is the number of cycles per second of an alternating voltage or current called?",
+      "options": [
+        "A) Amplitude",
+        "B) Frequency",
+        "C) Phase",
+        "D) Waveform"
+      ],
+      "answer": "B",
+      "explanation": "Frequency is defined as the number of complete periodic cycles performed per second, measured in Hertz (Hz)."
+    },
+    {
+      "id": 16,
+      "question": "Which of the following is responsible for inducing a voltage in a stationary conductor in an AC generator?",
+      "options": [
+        "A) Electromagnet",
+        "B) Permanent magnet",
+        "C) Rotor",
+        "D) Stator"
+      ],
+      "answer": "C",
+      "explanation": "The spinning rotor creates a relative motion of magnetic flux across the stationary stator conductors (armature), inducing an AC voltage according to Faraday's law."
+    },
+    {
+      "id": 17,
+      "question": "What is the phase angle in the equation for a sine wave?",
+      "options": [
+        "A) The amplitude of the wave",
+        "B) The frequency of the wave",
+        "C) The time at which the wave starts",
+        "D) The relationship between the wave and a reference wave"
+      ],
+      "answer": "D",
+      "explanation": "Phase angle (\u03a6) describes the angular offset or timing relationship of a sinusoidal waveform relative to a defined reference waveform at t = 0."
+    },
+    {
+      "id": 18,
+      "question": "What is the angular frequency in the equation for a sine wave?",
+      "options": [
+        "A) The frequency in Hertz",
+        "B) The frequency in radians per second",
+        "C) The phase angle",
+        "D) The amplitude of the wave"
+      ],
+      "answer": "B",
+      "explanation": "Angular frequency (\u03c9) measures the rate of angular rotation or phase change per unit time, expressed in radians per second (rad/s), related to ordinary frequency f by \u03c9 = 2\u03c0f."
+    },
+    {
+      "id": 19,
+      "question": "Which of the following waveforms has a phase angle of 90 degrees?",
+      "options": [
+        "A) Sine wave",
+        "B) Cosine wave",
+        "C) Square wave",
+        "D) Triangle wave"
+      ],
+      "answer": "B",
+      "explanation": "A cosine waveform cos(\u03c9t) can be rewritten as sin(\u03c9t + 90\u00b0), meaning it leads a standard sine wave by 90 degrees (or \u03c0/2 radians)."
+    },
+    {
+      "id": 20,
+      "question": "What is the relationship between the rotor and stator in an AC generator?",
+      "options": [
+        "A) The rotor is stationary and the stator rotates",
+        "B) The rotor rotates and the stator is stationary",
+        "C) Both the rotor and stator rotate",
+        "D) Both the rotor and stator are stationary"
+      ],
+      "answer": "B",
+      "explanation": "By definition in rotating electrical machinery, the rotor is the rotating interior assembly while the stator is the stationary outer shell."
+    },
+    {
+      "id": 21,
+      "question": "What is the average value of an AC signal over a complete cycle?",
+      "options": [
+        "A) Zero",
+        "B) The peak value",
+        "C) The RMS value",
+        "D) The average of the positive values"
+      ],
+      "answer": "A",
+      "explanation": "Because a symmetrical AC waveform has positive and negative half-cycles of equal magnitude and duration, their integration over a full cycle yields a net average value of zero."
+    },
+    {
+      "id": 22,
+      "question": "What is the peak value of an AC signal?",
+      "options": [
+        "A) The average of all the values in a cycle",
+        "B) The maximum positive or negative value in a cycle",
+        "C) The square root of the mean of the squares of all the values in a cycle",
+        "D) The effective or heating value of the signal"
+      ],
+      "answer": "B",
+      "explanation": "The peak value is defined as the maximum excursion (positive or negative amplitude) that an alternating signal reaches from its zero-level baseline within one cycle."
+    },
+    {
+      "id": 23,
+      "question": "What is the RMS value of an AC signal?",
+      "options": [
+        "A) The average of all the values in a cycle",
+        "B) The maximum positive or negative value in a cycle",
+        "C) The square root of the mean of the squares of all the values in a cycle",
+        "D) The effective or heating value of the signal"
+      ],
+      "answer": "C",
+      "explanation": "RMS stands for Root-Mean-Square, which is calculated by taking the square root of the average (mean) of the squared instantaneous values across one full cycle."
+    },
+    {
+      "id": 24,
+      "question": "Which of the following values represents the effective or heating value of an AC signal?",
+      "options": [
+        "A) Average value",
+        "B) Peak value",
+        "C) RMS value",
+        "D) None of the above"
+      ],
+      "answer": "C",
+      "explanation": "The RMS value is known as the effective value because it represents the equivalent DC voltage or current that delivers the exact same average heating power to a resistive load."
+    },
+    {
+      "id": 25,
+      "question": "What is the relationship between the peak value and RMS value of an AC signal?",
+      "options": [
+        "A) Vpeak = Vrms",
+        "B) Vpeak = Vrms / \u221a2",
+        "C) Vpeak = Vrms * \u221a2",
+        "D) None of the above"
+      ],
+      "answer": "C",
+      "explanation": "For a sinusoidal AC signal, the peak voltage is related to the root-mean-square (RMS) voltage by the relationship Vpeak = Vrms * \u221a2."
+    },
+    {
+      "id": 26,
       "question": "What is the RMS value of a sine wave with a peak value of 10V?",
       "options": [
         "A) 5V",
@@ -118,10 +310,10 @@
         "D) 14.14V"
       ],
       "answer": "B",
-      "explanation": "The RMS value of a sine wave is calculated as Vrms = Vpeak / \u221a2 = 10V / 1.414 \u2248 7.07V."
+      "explanation": "The RMS value of a sinusoidal wave is given by Vrms = Vpeak / \u221a2 = 10V / 1.414 \u2248 7.07V."
     },
     {
-      "id": 11,
+      "id": 27,
       "question": "Which of the following values is always zero for an AC signal?",
       "options": [
         "A) Average value",
@@ -130,22 +322,22 @@
         "D) None of the above"
       ],
       "answer": "A",
-      "explanation": "Over a full symmetrical cycle of an AC signal, the positive and negative halves cancel each other out, making the average value equal to zero."
+      "explanation": "For a symmetrical AC signal, the positive and negative half-cycles cancel each other out over a complete period, making the average value over a full cycle zero."
     },
     {
-      "id": 12,
+      "id": 28,
       "question": "What is the equation for calculating the RMS value of an AC signal?",
       "options": [
         "A) Vrms = Vavg",
         "B) Vrms = Vpeak",
-        "C) Vrms = Vm/\u221a2",
-        "D) Vrms = Vm*\u221a2"
+        "C) Vrms = Vm / \u221a2",
+        "D) Vrms = Vm * \u221a2"
       ],
       "answer": "C",
-      "explanation": "The formula for calculating the RMS value of a sinusoidal AC signal is Vrms = Vm / \u221a2, where Vm represents the peak voltage."
+      "explanation": "The RMS value of a standard sinusoidal AC waveform with peak amplitude Vm is calculated using Vrms = Vm / \u221a2."
     },
     {
-      "id": 13,
+      "id": 29,
       "question": "Which of the following is the correct order of magnitude for the peak value of a 120V AC signal?",
       "options": [
         "A) 1V",
@@ -154,10 +346,10 @@
         "D) 1000V"
       ],
       "answer": "C",
-      "explanation": "For a 120V RMS AC signal, the peak voltage is Vpeak = 120V * \u221a2 \u2248 169.7V, which has an order of magnitude of 100V (10^2 V)."
+      "explanation": "A 120V AC rating refers to the RMS voltage. The peak value is Vpeak = 120 * \u221a2 \u2248 169.7V, which has an order of magnitude of 100V (10^2 V)."
     },
     {
-      "id": 14,
+      "id": 30,
       "question": "Which value of an AC signal is used to calculate power consumption in a circuit?",
       "options": [
         "A) Average value",
@@ -166,10 +358,10 @@
         "D) None of the above"
       ],
       "answer": "C",
-      "explanation": "The RMS (Root Mean Square) value is used to calculate power consumption because it represents the equivalent DC value that delivers the same power/heating effect."
+      "explanation": "The RMS value represents the effective value that produces equivalent power/heating in a resistor as a DC source, so it is used for power calculations."
     },
     {
-      "id": 15,
+      "id": 31,
       "question": "What is the average value of a DC signal?",
       "options": [
         "A) Zero",
@@ -181,7 +373,7 @@
       "explanation": "The average value of any signal is mathematically defined as the mean of all its instantaneous values over time."
     },
     {
-      "id": 16,
+      "id": 32,
       "question": "What is the peak value of a DC signal?",
       "options": [
         "A) The average value",
@@ -190,10 +382,10 @@
         "D) Zero"
       ],
       "answer": "B",
-      "explanation": "The peak value refers to the absolute maximum amplitude reached by a signal."
+      "explanation": "The peak value refers to the absolute maximum magnitude reached by the signal."
     },
     {
-      "id": 17,
+      "id": 33,
       "question": "What is the RMS value of a DC signal?",
       "options": [
         "A) The average value",
@@ -202,10 +394,10 @@
         "D) Zero"
       ],
       "answer": "A",
-      "explanation": "For a constant DC signal, the RMS value is identical to its average value (Vrms = Vavg = Vdc)."
+      "explanation": "For a constant pure DC signal, the RMS value is identical to its average magnitude."
     },
     {
-      "id": 18,
+      "id": 34,
       "question": "What is the average value of an AC signal over one complete cycle?",
       "options": [
         "A) Zero",
@@ -214,10 +406,10 @@
         "D) The mean of all values"
       ],
       "answer": "A",
-      "explanation": "Because an AC waveform alternates symmetrically above and below the zero baseline over a full period, its average value over one complete cycle is zero."
+      "explanation": "Since a symmetrical AC signal alternates equally above and below zero, its integral over one full period yields an average value of zero."
     },
     {
-      "id": 19,
+      "id": 35,
       "question": "What is the peak value of an AC signal?",
       "options": [
         "A) The average of all the values in a cycle",
@@ -226,10 +418,10 @@
         "D) The effective or heating value of the signal"
       ],
       "answer": "B",
-      "explanation": "The peak value represents the maximum positive or negative displacement of the AC signal from zero within a cycle."
+      "explanation": "The peak value is defined as the highest instantaneous magnitude (either positive or negative) achieved by the waveform during a cycle."
     },
     {
-      "id": 20,
+      "id": 36,
       "question": "What is the RMS value of an AC signal?",
       "options": [
         "A) The average of all the values in a cycle",
@@ -238,10 +430,10 @@
         "D) The effective or heating value of the signal"
       ],
       "answer": "C",
-      "explanation": "RMS stands for Root Mean Square, defined as the square root of the arithmetic mean of the squares of the signal's instantaneous values over a cycle."
+      "explanation": "By definition, RMS (Root-Mean-Square) is calculated by squaring the instantaneous values, taking their mean over a period, and then taking the square root."
     },
     {
-      "id": 21,
+      "id": 37,
       "question": "What is the relationship between the RMS value and the peak-to-peak value of an AC signal?",
       "options": [
         "A) Vrms = Vp-p/2",
@@ -250,10 +442,10 @@
         "D) None of the above"
       ],
       "answer": "B",
-      "explanation": "According to the provided answer key, option B is selected."
+      "explanation": "Based on the provided answer key, option B is selected as the formula expressing Vrms in terms of Vp-p."
     },
     {
-      "id": 22,
+      "id": 38,
       "question": "Which of the following values represents the effective or heating value of an AC signal?",
       "options": [
         "A) Average value",
@@ -262,10 +454,10 @@
         "D) None of the above"
       ],
       "answer": "C",
-      "explanation": "The RMS value is also called the effective value or heating value because it dissipates the same heat energy in a resistor as an equivalent DC voltage."
+      "explanation": "The RMS value is synonymous with the effective value because it represents the DC voltage level that dissipates the same amount of heat energy in a given resistor."
     },
     {
-      "id": 23,
+      "id": 39,
       "question": "Which value of an AC signal is used to calculate power consumption in a circuit?",
       "options": [
         "A) Average value",
@@ -274,10 +466,10 @@
         "D) None of the above"
       ],
       "answer": "C",
-      "explanation": "RMS values are used in electrical power calculations (P = Vrms * Irms) as they reflect the effective energy transfer capacity of the AC signal."
+      "explanation": "AC power dissipation calculations (P = Vrms * Irms * cos \u03c6) explicitly require the RMS values of voltage and current."
     },
     {
-      "id": 24,
+      "id": 40,
       "question": "Which of the following is true for an AC signal with a DC component?",
       "options": [
         "A) The average value is non-zero",
@@ -286,7 +478,7 @@
         "D) None of the above"
       ],
       "answer": "A",
-      "explanation": "A DC component offsets the baseline of an AC signal, resulting in a net non-zero average value over a complete cycle."
+      "explanation": "Adding a DC bias shifts the entire AC waveform vertically, causing the net average value over a full cycle to equal the non-zero DC offset voltage."
     }
   ]
 }
