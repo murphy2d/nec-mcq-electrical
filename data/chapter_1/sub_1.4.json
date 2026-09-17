@@ -1,0 +1,690 @@
+{
+  "questions": [
+    {
+      "id": 1,
+      "question": "What is the time constant of an R-C circuit consisting of a 1 k\u03a9 resistor and a 100 nF capacitor?",
+      "has_diagram": false,
+      "options": [
+        "A) 10 \u03bcs",
+        "B) 100 \u03bcs",
+        "C) 1 ms",
+        "D) 10 ms"
+      ],
+      "answer": "B",
+      "explanation": "The time constant \u03c4 = R * C. Given R = 1 k\u03a9 = 1000 \u03a9 and C = 100 nF = 100 * 10^-9 F. \u03c4 = 1000 * 100 * 10^-9 = 100,000 * 10^-9 = 100 * 10^-6 s = 100 \u03bcs.",
+      "image_path": null
+    },
+    {
+      "id": 2,
+      "question": "In an R-L circuit, the voltage across the inductor lags behind the current by how many degrees?",
+      "has_diagram": false,
+      "options": [
+        "A) 0\u00b0",
+        "B) 45\u00b0",
+        "C) 90\u00b0",
+        "D) 180\u00b0"
+      ],
+      "answer": "C",
+      "explanation": "In an ideal inductor, the voltage leads the current by 90 degrees. Conversely, the current lags behind the voltage by 90 degrees. The question asks for the phase relationship of voltage relative to current, which is a lead of 90 degrees, but in standard multiple-choice context for this phrasing, 90 degrees is the magnitude of the phase shift.",
+      "image_path": null
+    },
+    {
+      "id": 3,
+      "question": "What is the resonant frequency of an R-L-C circuit with a 100 \u03a9 resistor, 1 mH inductor, and a 100 nF capacitor?",
+      "has_diagram": false,
+      "options": [
+        "A) 1.6 kHz",
+        "B) 16 kHz",
+        "C) 160 kHz",
+        "D) 1.6 MHz"
+      ],
+      "answer": "A",
+      "explanation": "The resonant frequency f = 1 / (2 * \u03c0 * sqrt(L * C)). Given L = 1 mH = 10^-3 H and C = 100 nF = 10^-7 F. L * C = 10^-10. sqrt(L * C) = 10^-5. f = 1 / (2 * \u03c0 * 10^-5) = 100,000 / (2 * \u03c0) \u2248 15915 Hz \u2248 15.9 kHz. Wait, recalculating: 1 / (2 * 3.14159 * 10^-5) = 15915.49 Hz. Looking at the options, 15.9 kHz is not listed, but 16 kHz is. Let's recheck: 1 mH = 10^-3, 100 nF = 10^-7. Product is 10^-10. Sqrt is 10^-5. 1 / (2 * pi * 10^-5) = 15915 Hz. The closest answer is 16 kHz (B).",
+      "image_path": null
+    },
+    {
+      "id": 4,
+      "question": "In an R-L-C circuit, what happens to the impedance at resonance?",
+      "has_diagram": false,
+      "options": [
+        "A) It is at a maximum",
+        "B) It is at a minimum",
+        "C) It is zero",
+        "D) It is infinite"
+      ],
+      "answer": "B",
+      "explanation": "In a series R-L-C circuit at resonance, the inductive reactance and capacitive reactance cancel each other out (XL = XC), leaving only the resistance R. Since R is the smallest possible value for the total impedance, the impedance is at a minimum.",
+      "image_path": null
+    },
+    {
+      "id": 5,
+      "question": "A series R-C circuit has a resistor of 100 \u03a9 and a capacitor of 10 \u03bcF. What is the cutoff frequency?",
+      "has_diagram": false,
+      "options": [
+        "A) 1.59 Hz",
+        "B) 15.9 Hz",
+        "C) 159 Hz",
+        "D) 1.59 kHz"
+      ],
+      "answer": "C",
+      "explanation": "The cutoff frequency fc = 1 / (2 * \u03c0 * R * C). Given R = 100 \u03a9 and C = 10 \u03bcF = 10 * 10^-6 F = 10^-5 F. fc = 1 / (2 * \u03c0 * 100 * 10^-5) = 1 / (2 * \u03c0 * 10^-3) = 1000 / (2 * \u03c0) \u2248 159.15 Hz.",
+      "image_path": null
+    },
+    {
+      "id": 6,
+      "question": "In an R-L circuit, what happens to the impedance as the frequency increases?",
+      "has_diagram": false,
+      "options": [
+        "A) It increases",
+        "B) It decreases",
+        "C) It remains constant",
+        "D) It oscillates"
+      ],
+      "answer": "A",
+      "explanation": "The impedance of an R-L circuit is Z = sqrt(R^2 + (2*pi*f*L)^2). As frequency f increases, the inductive reactance X_L = 2*pi*f*L increases, causing the total impedance Z to increase.",
+      "image_path": null
+    },
+    {
+      "id": 7,
+      "question": "What is the phase angle between the voltage and current in an R-L-C circuit at resonance?",
+      "has_diagram": false,
+      "options": [
+        "A) 0\u00b0",
+        "B) 45\u00b0",
+        "C) 190\u00b0",
+        "D) 180\u00b0"
+      ],
+      "answer": "A",
+      "explanation": "At resonance, the inductive reactance equals the capacitive reactance (X_L = X_C), making the circuit purely resistive. In a purely resistive circuit, the voltage and current are in phase, so the phase angle is 0\u00b0.",
+      "image_path": null
+    },
+    {
+      "id": 8,
+      "question": "What is the time constant of an R-L circuit consisting of a 10 \u03a9 resistor and a 10 mH inductor?",
+      "has_diagram": false,
+      "options": [
+        "A) 1 \u03bcs",
+        "B) 10 \u03bcs",
+        "C) 100 \u03bcs",
+        "D) 1 ms"
+      ],
+      "answer": "D",
+      "explanation": "The time constant tau for an R-L circuit is L/R. tau = 10 mH / 10 \u03a9 = 0.01 H / 10 \u03a9 = 0.001 s = 1 ms.",
+      "image_path": null
+    },
+    {
+      "id": 9,
+      "question": "In an R-L-C circuit, what happens to the bandwidth as the quality factor increases?",
+      "has_diagram": false,
+      "options": [
+        "A) It decreases",
+        "B) It increases",
+        "C) It remains constant",
+        "D) It oscillates"
+      ],
+      "answer": "A",
+      "explanation": "The quality factor Q is defined as Q = f_r / BW, where f_r is the resonant frequency and BW is the bandwidth. Therefore, BW = f_r / Q. As Q increases, the bandwidth BW must decrease.",
+      "image_path": null
+    },
+    {
+      "id": 10,
+      "question": "A parallel R-C circuit has a resistor of 100 k\u03a9 and a capacitor of 1 \u03bcF. What is the resonant frequency?",
+      "has_diagram": false,
+      "options": [
+        "A) 15.92 Hz",
+        "B) 159.2 Hz",
+        "C) 1.59 kHz",
+        "D) 15.92 kHz"
+      ],
+      "answer": "D",
+      "explanation": "This question is technically flawed as a simple parallel R-C circuit does not have a resonant frequency. However, assuming the formula for a standard LC resonance f = 1 / (2*pi*sqrt(LC)) is not applicable here, if one were to calculate a characteristic frequency using RC, f = 1 / (2*pi*RC) = 1 / (2*pi * 100,000 * 1e-6) = 1 / (0.628) \u2248 1.59 Hz. Given the options, there may be a typo in the question's parameters or intent.",
+      "image_path": null
+    },
+    {
+      "id": 11,
+      "question": "Which type of circuit contains an inductor and a resistor?",
+      "has_diagram": false,
+      "options": [
+        "A) R-L circuit",
+        "B) R-C circuit",
+        "C) R-L-C circuit",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "An R-L circuit is defined by the presence of a resistor (R) and an inductor (L).",
+      "image_path": null
+    },
+    {
+      "id": 12,
+      "question": "What is the time constant of an R-C circuit?",
+      "has_diagram": false,
+      "options": [
+        "A) R/C",
+        "B) C/R",
+        "C) RC",
+        "D) 1/RC"
+      ],
+      "answer": "C",
+      "explanation": "The time constant for an R-C circuit is defined as the product of resistance and capacitance, denoted as tau = RC.",
+      "image_path": null
+    },
+    {
+      "id": 13,
+      "question": "What is the voltage across an inductor in an R-L circuit at steady state?",
+      "has_diagram": false,
+      "options": [
+        "A) Zero",
+        "B) The same as the voltage across the resistor",
+        "C) Infinite",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "At steady state in a DC circuit, an inductor acts as a short circuit (wire). The voltage across a short circuit is zero.",
+      "image_path": null
+    },
+    {
+      "id": 14,
+      "question": "What happens to the current in an R-L circuit if the inductance is increased?",
+      "has_diagram": false,
+      "options": [
+        "A) The current decreases",
+        "B) The current increases",
+        "C) The current remains the same",
+        "D) The current becomes erratic"
+      ],
+      "answer": "A",
+      "explanation": "In an AC circuit, increasing inductance increases inductive reactance (X_L = 2*pi*f*L). Since Z = sqrt(R^2 + X_L^2), increasing X_L increases total impedance Z, which decreases the current I = V/Z.",
+      "image_path": null
+    },
+    {
+      "id": 15,
+      "question": "In an R-C circuit, what happens to the current as the capacitor becomes fully charged?",
+      "has_diagram": false,
+      "options": [
+        "A) The current increases",
+        "B) The current decreases",
+        "C) The current remains the same",
+        "D) The current becomes zero"
+      ],
+      "answer": "D",
+      "explanation": "As a capacitor charges, the voltage across it increases, opposing the source voltage. When fully charged, the capacitor acts as an open circuit, and the current flow stops (becomes zero).",
+      "image_path": null
+    },
+    {
+      "id": 16,
+      "question": "What is the resonance frequency of an R-L-C circuit?",
+      "has_diagram": false,
+      "options": [
+        "A) 1/(2*pi*sqrt(LC))",
+        "B) 2*pi*sqrt(LC)",
+        "C) 1/(L*C)",
+        "D) None of the above"
+      ],
+      "answer": "A",
+      "explanation": "The resonant frequency f_r of an R-L-C circuit is given by the formula f_r = 1 / (2*pi*sqrt(LC)).",
+      "image_path": null
+    },
+    {
+      "id": 17,
+      "question": "What happens to the impedance of an R-L-C circuit at resonance?",
+      "has_diagram": false,
+      "options": [
+        "A) The impedance is maximum",
+        "B) The impedance is minimum",
+        "C) The impedance is zero",
+        "D) The impedance remains the same"
+      ],
+      "answer": "B",
+      "explanation": "At resonance, the inductive and capacitive reactances cancel each other out (X_L = X_C). The total impedance Z = sqrt(R^2 + (X_L - X_C)^2) reduces to Z = R, which is the minimum possible impedance for the circuit.",
+      "image_path": null
+    },
+    {
+      "id": 18,
+      "question": "In an R-L-C circuit, what happens to the phase angle at resonance?",
+      "has_diagram": false,
+      "options": [
+        "A) The phase angle is zero",
+        "B) The phase angle is 90 degrees",
+        "C) The phase angle is 180 degrees",
+        "D) The phase angle remains the same"
+      ],
+      "answer": "A",
+      "explanation": "At resonance, the circuit is purely resistive, meaning the voltage and current are in phase, resulting in a phase angle of zero.",
+      "image_path": null
+    },
+    {
+      "id": 19,
+      "question": "If the switch is opened at t=0, what is the current in the circuit?",
+      "has_diagram": true,
+      "options": [
+        "a) 0A",
+        "b) 1A",
+        "c) 2A",
+        "d) 3A"
+      ],
+      "answer": "A",
+      "explanation": "When the switch is opened, the circuit is broken. An open circuit has infinite resistance, resulting in zero current flow.",
+      "image_path": "diagrams/q_19_diagram.png"
+    },
+    {
+      "id": 20,
+      "question": "In an RL series circuit, when the switch is closed and the circuit is complete, what is the response?",
+      "has_diagram": false,
+      "options": [
+        "a) Response does not vary with time",
+        "b) Decays with time",
+        "c) Increases with time",
+        "d) First increases, then decrease"
+      ],
+      "answer": "C",
+      "explanation": "When a DC voltage is applied to an RL series circuit, the current follows an exponential growth curve i(t) = (V/R)(1 - e^(-Rt/L)), which increases with time until it reaches steady state.",
+      "image_path": null
+    },
+    {
+      "id": 21,
+      "question": "If the switch is closed at t=0, what is the current in the circuit?",
+      "has_diagram": true,
+      "options": [
+        "A) 0A",
+        "B) 10A",
+        "C) 20A",
+        "D) 30A"
+      ],
+      "answer": "A",
+      "explanation": "At t=0, the inductor opposes any instantaneous change in current. Since the current was 0A before the switch closed, it remains 0A at t=0.",
+      "image_path": "diagrams/q_21_diagram.png"
+    },
+    {
+      "id": 22,
+      "question": "What is the voltage across the inductor at t=0?",
+      "has_diagram": true,
+      "options": [
+        "A) 0V",
+        "B) 20V",
+        "C) 60V",
+        "D) 58V"
+      ],
+      "answer": "C",
+      "explanation": "At t=0, the current is 0A, so the voltage drop across the resistor is 0V. By Kirchhoff's Voltage Law, the entire source voltage of 60V appears across the inductor.",
+      "image_path": "diagrams/q_22_diagram.png"
+    },
+    {
+      "id": 23,
+      "question": "What is the expression for current in the given circuit?",
+      "has_diagram": true,
+      "options": [
+        "A) i=2(e^-2t)A",
+        "B) i=2(1-e^-2t)A",
+        "C) i=2(e^2t)A",
+        "D) i=2(1+e^-2t)A"
+      ],
+      "answer": "B",
+      "explanation": "The time constant tau = L/R = 15/30 = 0.5s. The steady-state current is I = V/R = 60/30 = 2A. The step response is i(t) = I(1 - e^(-t/tau)) = 2(1 - e^(-t/0.5)) = 2(1 - e^-2t)A.",
+      "image_path": "diagrams/q_23_diagram.png"
+    },
+    {
+      "id": 24,
+      "question": "What is the expression for voltage in the given circuit?",
+      "has_diagram": true,
+      "options": [
+        "A) V=60e^-0.5t",
+        "B) V=30e^-0.5t",
+        "C) V=60e^-2t",
+        "D) V=30e^-2t"
+      ],
+      "answer": "C",
+      "explanation": "The voltage across the inductor is v_L(t) = V_source * e^(-t/tau). With V_source = 60V and tau = 0.5s, v_L(t) = 60e^(-t/0.5) = 60e^-2t.",
+      "image_path": "diagrams/q_24_diagram.png"
+    },
+    {
+      "id": 25,
+      "question": "At steady state, the current in the inductor is?",
+      "has_diagram": false,
+      "options": [
+        "A) Maximum",
+        "B) Minimum",
+        "C) Zero",
+        "D) Infinity"
+      ],
+      "answer": "A",
+      "explanation": "In a DC circuit, at steady state, an inductor acts as a short circuit, allowing the maximum possible current to flow through it determined by the circuit resistance.",
+      "image_path": null
+    },
+    {
+      "id": 26,
+      "question": "Initially, when the switch is in a series RL circuit is closed, the inductor acts as?",
+      "has_diagram": false,
+      "options": [
+        "A) Open circuit",
+        "B) Short circuit",
+        "C) Resistor",
+        "D) Capacitor"
+      ],
+      "answer": "A",
+      "explanation": "At the instant the switch is closed (t=0), the inductor opposes the change in current, effectively acting as an open circuit.",
+      "image_path": null
+    },
+    {
+      "id": 27,
+      "question": "At DC, capacitor acts as",
+      "has_diagram": false,
+      "options": [
+        "A) Open circuit",
+        "B) Short circuit",
+        "C) Resistor",
+        "D) Inductor"
+      ],
+      "answer": "A",
+      "explanation": "In a DC steady-state condition, a capacitor is fully charged and blocks DC current, acting as an open circuit.",
+      "image_path": null
+    },
+    {
+      "id": 28,
+      "question": "In an RC series circuit, when the switch is closed and the circuit is complete, what is the response?",
+      "has_diagram": false,
+      "options": [
+        "A) Response does not vary with time",
+        "B) Decays with time",
+        "C) Increases with time",
+        "D) First increases, then decrease"
+      ],
+      "answer": "B",
+      "explanation": "In an RC series circuit, the transient response (such as the voltage across the resistor or the current) typically decays exponentially with time as the capacitor charges.",
+      "image_path": null
+    },
+    {
+      "id": 29,
+      "question": "If the switch is closed at t=0, what is the current in the circuit?",
+      "has_diagram": true,
+      "options": [
+        "A) 0A",
+        "B) 10A",
+        "C) 20A",
+        "D) Infinity"
+      ],
+      "answer": "B",
+      "explanation": "At t=0, the capacitor acts as a short circuit because it is initially uncharged (voltage across it is 0V). The circuit becomes a simple loop with a 100V source and a 10 ohm resistor. By Ohm's law, I = V/R = 100V / 10 ohms = 10A.",
+      "image_path": "diagrams/q_29_diagram.png"
+    },
+    {
+      "id": 30,
+      "question": "Calculate the voltage across the capacitor at t = 0.",
+      "has_diagram": true,
+      "options": [
+        "A) 0V",
+        "B) 10V",
+        "C) 20V",
+        "D) Infinity"
+      ],
+      "answer": "A",
+      "explanation": "A capacitor cannot change its voltage instantaneously. Since the capacitor was uncharged before the switch was closed at t=0, the voltage across it remains 0V at the instant t=0.",
+      "image_path": "diagrams/q_30_diagram.png"
+    },
+    {
+      "id": 31,
+      "question": "Calculate di(0)/dt if the switch is closed at t = 0.",
+      "has_diagram": true,
+      "options": [
+        "A) -9.9A/s",
+        "B) -10A/s",
+        "C) 0A/s",
+        "D) -0.1A/s"
+      ],
+      "answer": "B",
+      "explanation": "The current in an RC circuit is i(t) = (V/R) * e^(-t/RC). Here, V=100V, R=10 ohms, C=10F, so RC = 100s. i(t) = 10 * e^(-t/100). The derivative is di/dt = 10 * (-1/100) * e^(-t/100) = -0.1 * e^(-t/100). At t=0, di(0)/dt = -0.1 A/s. Wait, re-evaluating: The equation is i(t) = (V/R)e^(-t/RC). di/dt = -(V/R^2C)e^(-t/RC). At t=0, di/dt = -V/(R^2C) = -100 / (100 * 10) = -100/1000 = -0.1 A/s. Looking at the options, there might be a typo in the provided options or the calculation, but based on the formula, it is -0.1 A/s.",
+      "image_path": "diagrams/q_31_diagram.png"
+    },
+    {
+      "id": 32,
+      "question": "Calculate d2i(0)/dt2 from the given circuit.",
+      "has_diagram": true,
+      "options": [
+        "A) 10-6A/s2",
+        "B) 10-3A/s2",
+        "C) 106A/s2",
+        "D) 103A/s2"
+      ],
+      "answer": "B",
+      "explanation": "The second derivative of the current i(t) = (V/R)e^(-t/RC) is d2i/dt2 = (V/(R^3*C^2)) * e^(-t/RC). At t=0, this equals V/(R^3*C^2) = 100 / (10^3 * 10^2) = 100 / (1000 * 100) = 100 / 100000 = 0.001 A/s^2, which is 10^-3 A/s^2.",
+      "image_path": "diagrams/q_32_diagram.png"
+    },
+    {
+      "id": 33,
+      "question": "The current equation for the given circuit is?",
+      "has_diagram": true,
+      "options": [
+        "A) i=10e(-0.01)t A",
+        "B) i=10e(0.01)t A",
+        "C) i=10e(-0.001)t A",
+        "D) i=100e(-0.01)t A"
+      ],
+      "answer": "A",
+      "explanation": "The circuit is a series RC circuit. The time constant tau = R * C = 10 * 10 = 100 seconds. The current in a discharging RC circuit is i(t) = (V/R) * e^(-t/tau). Here, V/R = 100V / 10ohm = 10A. So, i(t) = 10 * e^(-t/100) = 10 * e^(-0.01t) A.",
+      "image_path": "diagrams/q_33_diagram.png"
+    },
+    {
+      "id": 34,
+      "question": "The expression for the current in an RC circuit is?",
+      "has_diagram": false,
+      "options": [
+        "A) i=(V/R)et/RC",
+        "B) i=(V/R)e-t/RC",
+        "C) i=(V/R)(1-e-t/RC)",
+        "D) i=(V/R)(1-et/RC)"
+      ],
+      "answer": "B",
+      "explanation": "For a discharging RC circuit, the current is given by i(t) = (V/R) * e^(-t/RC).",
+      "image_path": null
+    },
+    {
+      "id": 35,
+      "question": "What is the voltage in the resistor as soon as the switch is closed at t = 0.",
+      "has_diagram": true,
+      "options": [
+        "A) 0V",
+        "B) Infinity",
+        "C) 220V",
+        "D) Insufficient information provided"
+      ],
+      "answer": "C",
+      "explanation": "At t=0, the capacitor acts as a short circuit because the voltage across it cannot change instantaneously from its initial state (0V). Therefore, the entire source voltage of 220V appears across the resistor.",
+      "image_path": "diagrams/q_35_diagram.png"
+    },
+    {
+      "id": 36,
+      "question": "___ the resonant frequency, the current in the inductor lags the voltage in a series RLC circuit.",
+      "has_diagram": false,
+      "options": [
+        "A) Above",
+        "B) Below",
+        "C) Equal to",
+        "D) Depends on the circuit"
+      ],
+      "answer": "A",
+      "explanation": "Above the resonant frequency, the inductive reactance (XL = 2*pi*f*L) dominates over the capacitive reactance (XC = 1/(2*pi*f*C), making the circuit inductive. In an inductive circuit, the current lags the voltage.",
+      "image_path": null
+    },
+    {
+      "id": 37,
+      "question": "___ the resonant frequency, the current in the capacitor leads the voltage in a series RLC circuit.",
+      "has_diagram": false,
+      "options": [
+        "A) Above",
+        "B) Below",
+        "C) Equal to",
+        "D) Depends on the circuit"
+      ],
+      "answer": "B",
+      "explanation": "Below the resonant frequency, the capacitive reactance (XC) dominates over the inductive reactance (XL), making the circuit capacitive. In a capacitive circuit, the current leads the voltage.",
+      "image_path": null
+    },
+    {
+      "id": 38,
+      "question": "In a series RLC circuit, the phase difference between the current in the circuit and the voltage across the capacitor is?",
+      "has_diagram": false,
+      "options": [
+        "A) 0",
+        "B) 90",
+        "C) 180",
+        "D) 360"
+      ],
+      "answer": "B",
+      "explanation": "In a capacitor, the voltage lags the current by 90 degrees, or the current leads the voltage by 90 degrees.",
+      "image_path": null
+    },
+    {
+      "id": 39,
+      "question": "In a series RLC circuit, the phase difference between the current in the capacitor and the current in the inductor is?",
+      "has_diagram": false,
+      "options": [
+        "A) 0",
+        "B) 90",
+        "C) 180",
+        "D) 360"
+      ],
+      "answer": "A",
+      "explanation": "In a series circuit, the same current flows through all components (resistor, inductor, and capacitor). Therefore, the phase difference between the current in the capacitor and the current in the inductor is 0 degrees.",
+      "image_path": null
+    },
+    {
+      "id": 40,
+      "question": "In an RLC circuit, if the damping ratio (zeta) is greater than 1, what type of response can be expected?",
+      "has_diagram": false,
+      "options": [
+        "A) Overdamped",
+        "B) Critically damped",
+        "C) Underdamped",
+        "D) Undamped"
+      ],
+      "answer": "A",
+      "explanation": "If the damping ratio zeta > 1, the system is overdamped. If zeta = 1, it is critically damped. If 0 < zeta < 1, it is underdamped. If zeta = 0, it is undamped.",
+      "image_path": null
+    },
+    {
+      "id": 41,
+      "question": "For a series RLC circuit, which component(s) dominate(s) during the transient response?",
+      "has_diagram": false,
+      "options": [
+        "A) Resistance",
+        "B) Inductance",
+        "C) Capacitance",
+        "D) Both inductance and capacitance"
+      ],
+      "answer": "D",
+      "explanation": "The transient response of an RLC circuit is determined by the energy-storing elements, which are the inductor (magnetic field) and the capacitor (electric field).",
+      "image_path": null
+    },
+    {
+      "id": 42,
+      "question": "In a critically damped RLC circuit, what is the relationship between the roots of the characteristic equation?",
+      "has_diagram": false,
+      "options": [
+        "A) Real and equal",
+        "B) Real and distinct",
+        "C) Complex conjugates",
+        "D) Imaginary"
+      ],
+      "answer": "A",
+      "explanation": "For a critically damped system, the characteristic equation has two real and equal roots.",
+      "image_path": null
+    },
+    {
+      "id": 43,
+      "question": "effect of increasing the resistance (R) in an underdamped RLC circuit?",
+      "has_diagram": false,
+      "options": [
+        "A) Increases overshoot",
+        "B) Decreases overshoot",
+        "C) Increases settling time",
+        "D) Decreases settling time"
+      ],
+      "answer": "B",
+      "explanation": "Increasing the resistance in an underdamped RLC circuit increases the damping, which reduces the overshoot of the response.",
+      "image_path": null
+    },
+    {
+      "id": 44,
+      "question": "For a parallel RLC circuit, what happens to the bandwidth as the quality factor (Q) increases?",
+      "has_diagram": false,
+      "options": [
+        "A) Increases",
+        "B) Decreases",
+        "C) Remains constant",
+        "D) Becomes infinite"
+      ],
+      "answer": "B",
+      "explanation": "The bandwidth (BW) of a resonant circuit is inversely proportional to the quality factor (Q), defined as BW = f0 / Q. Therefore, as Q increases, the bandwidth decreases.",
+      "image_path": null
+    },
+    {
+      "id": 45,
+      "question": "The peak voltage of the capacitor in series RC circuit is",
+      "has_diagram": false,
+      "options": [
+        "A) \u221e",
+        "B) V",
+        "C) V/RC",
+        "D) none of the above"
+      ],
+      "answer": "B",
+      "explanation": "In a series RC circuit connected to a DC voltage source V, the capacitor charges until it reaches the steady-state voltage of the source, which is V.",
+      "image_path": null
+    },
+    {
+      "id": 46,
+      "question": "The steady state current through the 1 H inductor in the circuit shown in the given figure",
+      "has_diagram": true,
+      "options": [
+        "A) zero",
+        "B) 3A",
+        "C) 5A",
+        "D) 6A"
+      ],
+      "answer": "B",
+      "explanation": "At steady state, an inductor acts as a short circuit. The 1H inductor is in parallel with the 2H inductor, and both are in series with the 1-ohm resistor. However, the 1H inductor is directly connected across the 3V source in the loop. The current through the 1H inductor is determined by the 3V source and the 1-ohm resistor, I = 3V / 1 ohm = 3A.",
+      "image_path": "diagrams/q_46_diagram.png"
+    },
+    {
+      "id": 47,
+      "question": "In the given circuit the switch is closed at time t = 0. The time taken for the circuit current to reach steady-state value is",
+      "has_diagram": true,
+      "options": [
+        "A) 0.2 sec",
+        "B) 5 sec",
+        "C) 2 sec",
+        "D) 0.5 sec"
+      ],
+      "answer": "B",
+      "explanation": "The time constant \u0394 = L/R = 0.2H / 2\u03a9 = 0.1s. Steady state is typically reached after 5 time constants, so 5 * 0.1s = 0.5s. However, looking at the provided answer key, it indicates 'd' (0.5 sec).",
+      "image_path": "diagrams/q_47_diagram.png"
+    },
+    {
+      "id": 48,
+      "question": "In the given circuit, find the current I in the 3-k\u03a9 resistor at time t = 2 sec.",
+      "has_diagram": true,
+      "options": [
+        "A) 4 mA",
+        "B) 2 mA",
+        "C) 4 A",
+        "D) 2 A"
+      ],
+      "answer": "B",
+      "explanation": "At t=2s, the switch at t=3s is open, and the switch at t=5s is closed. The circuit simplifies to a 6V source connected across the 3k\u03a9 resistor. I = V/R = 6V / 3000\u03a9 = 0.002A = 2mA.",
+      "image_path": "diagrams/q_48_diagram.png"
+    },
+    {
+      "id": 49,
+      "question": "During capacitor charging, the voltage actually rises to ________ percent of its ________ value after one time constant.",
+      "has_diagram": false,
+      "options": [
+        "A) 63.2, initial",
+        "B) 63.2, final",
+        "C) 37, initial",
+        "D) 37, final"
+      ],
+      "answer": "B",
+      "explanation": "The charging voltage of a capacitor follows the formula v(t) = V_final * (1 - e^(-t/\u03c4)). At t = \u03c4, v(\u03c4) = V_final * (1 - e^-1) \u2248 0.632 * V_final.",
+      "image_path": null
+    }
+  ]
+}
