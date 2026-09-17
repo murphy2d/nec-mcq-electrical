@@ -92,7 +92,7 @@ SYLLABUS = {
 if "submitted_answers" not in st.session_state:
     st.session_state.submitted_answers = {}  # {q_id: (user_choice, is_correct)}
 if "submitted_batches" not in st.session_state:
-    st.session_state.submitted_batches = set() # Track submitted batch indices
+    st.session_state.submitted_batches = set()  # Tracks submitted batch keys
 if "current_batch" not in st.session_state:
     st.session_state.current_batch = 0
 
@@ -160,6 +160,12 @@ if os.path.exists(file_path):
         for q in current_questions:
             q_id = q["id"]
             st.markdown(f"#### Question {q_id}: {q['question']}")
+
+            # Render circuit diagram if present
+            if q.get("image_path"):
+                diagram_full_path = os.path.join("data", f"chapter_{chap_num}", q["image_path"])
+                if os.path.exists(diagram_full_path):
+                    st.image(diagram_full_path, caption=f"Diagram for Question {q_id}", width=450)
 
             already_answered = q_id in st.session_state.submitted_answers
             saved_choice, is_correct = st.session_state.submitted_answers.get(q_id, (None, False))
