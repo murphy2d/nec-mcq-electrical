@@ -262,7 +262,7 @@
         "c) 2A",
         "d) 3A"
       ],
-      "answer": "A",
+      "answer": "a",
       "explanation": "When the switch is opened, the circuit is broken. An open circuit has infinite resistance, resulting in zero current flow.",
       "image_path": "diagrams/q_19_diagram.png"
     },
@@ -276,7 +276,7 @@
         "c) Increases with time",
         "d) First increases, then decrease"
       ],
-      "answer": "C",
+      "answer": "c",
       "explanation": "When a DC voltage is applied to an RL series circuit, the current follows an exponential growth curve i(t) = (V/R)(1 - e^(-Rt/L)), which increases with time until it reaches steady state.",
       "image_path": null
     },
