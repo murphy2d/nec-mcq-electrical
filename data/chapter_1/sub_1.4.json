@@ -276,8 +276,8 @@
         "c) Increases with time",
         "d) First increases, then decrease"
       ],
-      "answer": "c",
-      "explanation": "When a DC voltage is applied to an RL series circuit, the current follows an exponential growth curve i(t) = (V/R)(1 - e^(-Rt/L)), which increases with time until it reaches steady state.",
+      "answer": "b",
+      "explanation": "When a DC voltage is not applied to an RL series circuit i.e. for natural response, the current follows an exponential growth curve i(t) = (V/R)(1 - e^(-Rt/L)), which increases with time until it reaches steady state.",
       "image_path": null
     },
     {
