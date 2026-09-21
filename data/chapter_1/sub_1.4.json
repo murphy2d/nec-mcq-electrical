@@ -38,7 +38,7 @@
         "C) 160 kHz",
         "D) 1.6 MHz"
       ],
-      "answer": "A",
+      "answer": "B",
       "explanation": "The resonant frequency f = 1 / (2 * \u03c0 * sqrt(L * C)). Given L = 1 mH = 10^-3 H and C = 100 nF = 10^-7 F. L * C = 10^-10. sqrt(L * C) = 10^-5. f = 1 / (2 * \u03c0 * 10^-5) = 100,000 / (2 * \u03c0) \u2248 15915 Hz \u2248 15.9 kHz. Wait, recalculating: 1 / (2 * 3.14159 * 10^-5) = 15915.49 Hz. Looking at the options, 15.9 kHz is not listed, but 16 kHz is. Let's recheck: 1 mH = 10^-3, 100 nF = 10^-7. Product is 10^-10. Sqrt is 10^-5. 1 / (2 * pi * 10^-5) = 15915 Hz. The closest answer is 16 kHz (B).",
       "image_path": null
     },
@@ -136,7 +136,7 @@
         "C) 1.59 kHz",
         "D) 15.92 kHz"
       ],
-      "answer": "D",
+      "answer": "C",
       "explanation": "This question is technically flawed as a simple parallel R-C circuit does not have a resonant frequency. However, assuming the formula for a standard LC resonance f = 1 / (2*pi*sqrt(LC)) is not applicable here, if one were to calculate a characteristic frequency using RC, f = 1 / (2*pi*RC) = 1 / (2*pi * 100,000 * 1e-6) = 1 / (0.628) \u2248 1.59 Hz. Given the options, there may be a typo in the question's parameters or intent.",
       "image_path": null
     },
@@ -430,7 +430,7 @@
         "C) 0A/s",
         "D) -0.1A/s"
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The current in an RC circuit is i(t) = (V/R) * e^(-t/RC). Here, V=100V, R=10 ohms, C=10F, so RC = 100s. i(t) = 10 * e^(-t/100). The derivative is di/dt = 10 * (-1/100) * e^(-t/100) = -0.1 * e^(-t/100). At t=0, di(0)/dt = -0.1 A/s. Wait, re-evaluating: The equation is i(t) = (V/R)e^(-t/RC). di/dt = -(V/R^2C)e^(-t/RC). At t=0, di/dt = -V/(R^2C) = -100 / (100 * 10) = -100/1000 = -0.1 A/s. Looking at the options, there might be a typo in the provided options or the calculation, but based on the formula, it is -0.1 A/s.",
       "image_path": "diagrams/q_31_diagram.png"
     },
@@ -439,10 +439,10 @@
       "question": "Calculate d2i(0)/dt2 from the given circuit.",
       "has_diagram": true,
       "options": [
-        "A) 10-6A/s2",
-        "B) 10-3A/s2",
-        "C) 106A/s2",
-        "D) 103A/s2"
+        "A) 10^-6A/s2",
+        "B) 10^-3A/s2",
+        "C) 10^6A/s2",
+        "D) 10^3A/s2"
       ],
       "answer": "B",
       "explanation": "The second derivative of the current i(t) = (V/R)e^(-t/RC) is d2i/dt2 = (V/(R^3*C^2)) * e^(-t/RC). At t=0, this equals V/(R^3*C^2) = 100 / (10^3 * 10^2) = 100 / (1000 * 100) = 100 / 100000 = 0.001 A/s^2, which is 10^-3 A/s^2.",
@@ -453,9 +453,9 @@
       "question": "The current equation for the given circuit is?",
       "has_diagram": true,
       "options": [
-        "A) i=10e(-0.01)t A",
-        "B) i=10e(0.01)t A",
-        "C) i=10e(-0.001)t A",
+        "A) i=10e^(-0.01)t A",
+        "B) i=10e^(0.01)t A",
+        "C) i=10e^(-0.001)t A",
         "D) i=100e(-0.01)t A"
       ],
       "answer": "A",
@@ -467,9 +467,9 @@
       "question": "The expression for the current in an RC circuit is?",
       "has_diagram": false,
       "options": [
-        "A) i=(V/R)et/RC",
-        "B) i=(V/R)e-t/RC",
-        "C) i=(V/R)(1-e-t/RC)",
+        "A) i=(V/R)e^t/RC",
+        "B) i=(V/R)e^-t/RC",
+        "C) i=(V/R)(1-e^-t/RC)",
         "D) i=(V/R)(1-et/RC)"
       ],
       "answer": "B",
@@ -654,7 +654,7 @@
         "C) 2 sec",
         "D) 0.5 sec"
       ],
-      "answer": "B",
+      "answer": "D",
       "explanation": "The time constant \u0394 = L/R = 0.2H / 2\u03a9 = 0.1s. Steady state is typically reached after 5 time constants, so 5 * 0.1s = 0.5s. However, looking at the provided answer key, it indicates 'd' (0.5 sec).",
       "image_path": "diagrams/q_47_diagram.png"
     },
