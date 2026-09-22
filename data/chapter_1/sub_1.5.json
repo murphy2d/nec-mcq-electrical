@@ -10,8 +10,8 @@
         "C) 500 Hz",
         "D) 1000 Hz"
       ],
-      "answer": "A",
-      "explanation": "Resonant frequency f = 1 / (2 * pi * sqrt(L * C)). Given L = 20 mH = 0.02 H and C = 10 uF = 10e-6 F. f = 1 / (2 * pi * sqrt(0.02 * 10e-6)) = 159.15 Hz.",
+      "answer": "B",
+      "explanation": "Resonant frequency f = 1 / (2 * pi * sqrt(L * C)). Given L = 20 mH = 0.02 H and C = 10 uF = 10e-6 F. f = 1 / (2 * pi * sqrt(0.02 * 10e-6)) ~ 318.3 Hz.",
       "image_path": null
     },
     {
@@ -229,8 +229,8 @@
       "question": "The reactive power equation (Pr) is?",
       "has_diagram": false,
       "options": [
-        "A) Ieff2 (wL) sin(wt+theta)",
-        "B) Ieff2 (wL) cos(wt+theta)",
+        "A) Ieff2 (wL) sin2(wt+theta)",
+        "B) Ieff2 (wL) cos2(wt+theta)",
         "C) Ieff2 (wL) sin(wt+theta)",
         "D) Ieff2 (wL) cos(wt+theta)"
       ],
