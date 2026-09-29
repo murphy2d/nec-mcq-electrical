@@ -430,8 +430,8 @@
         "C) 25 AT/m",
         "D) 2.5 AT/m"
       ],
-      "answer": "C",
-      "explanation": "Magnetic field strength H = (N * I) / L = (50 * 1) / 0.2 m = 250 AT/m? Wait, let's recalculate: 50 * 1 / 0.2 = 250 AT/m. Looking at the answer key, answer key for 31 is 'b', which corresponds to 250 AT/m.",
+      "answer": "B",
+      "explanation": "Magnetic field strength H = (N * I) / L = (50 * 1) / 0.2 m = 250 AT/m",
       "image_path": null
     },
     {
@@ -445,7 +445,7 @@
         "D) 63380 N/Wb"
       ],
       "answer": "C",
-      "explanation": "Based on the official answer key, the correct answer is C.",
+      "explanation": "F = (10)/(4pi*4pi*10^-7 * 0.1^2) = 63325739.78 N/Wb)",
       "image_path": null
     },
     {
@@ -459,7 +459,7 @@
         "D) 0.1 N"
       ],
       "answer": "D",
-      "explanation": "F/L = (mu_0 * I1 * I2) / (2 * pi * d) = (4 * pi * 10^-7 * 100 * 100) / (2 * pi * 0.02) = (2 * 10^-7 * 10000) / 0.02 = 0.02 / 0.02 = 1 N? Wait: 4pi*10^-7 * 10^4 / (2*pi*0.02) = 2*10^-3 / 0.02 = 0.1 N. Answer is D.",
+      "explanation": "F/L = (mu_0 * I1 * I2) / (2 * pi * d) = (4 * pi * 10^-7 * 100 * 100) / (2 * pi * 0.02) = 0.1 N",
       "image_path": null
     }
   ]
